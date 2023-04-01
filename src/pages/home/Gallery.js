@@ -9,7 +9,7 @@ const Gallery = () => {
   const { t } = useTranslation();
   useEffect(() => {
     axios
-      .get("http://localhost:3000/img/image")
+      .get("https://asssunnahfoundation.onrender.com/img/image")
       .then((res) => setImg(res.data));
   }, []);
 

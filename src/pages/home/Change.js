@@ -9,7 +9,7 @@ const Change = () => {
   const { t } = useTranslation();
   useEffect(() => {
     axios
-      .get("http://localhost:3000/donate/donate")
+      .get("https://asssunnahfoundation.onrender.com/donate/donate")
       .then((res) => setDonate(res.data.slice(0, 6)));
   }, []);
 

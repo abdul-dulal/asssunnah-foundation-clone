@@ -10,7 +10,7 @@ const News = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/news/news")
+      .get("https://asssunnahfoundation.onrender.com/news/news")
       .then((res) => setNews(res.data));
   }, []);
 

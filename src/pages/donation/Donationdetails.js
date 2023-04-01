@@ -20,10 +20,12 @@ const Donationdetails = () => {
   const { category } = useParams();
 
   useEffect(() => {
-    axios.get(`http://localhost:3000/donate/${category}`).then((res) => {
-      setDetails(res.data);
-      setIsloading(false);
-    });
+    axios
+      .get(`https://asssunnahfoundation.onrender.com/donate/${category}`)
+      .then((res) => {
+        setDetails(res.data);
+        setIsloading(false);
+      });
   }, [category]);
 
   return (

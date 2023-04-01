@@ -12,7 +12,9 @@ const Gallery = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/img/getImg?type=${gallery}`)
+      .get(
+        `https://asssunnahfoundation.onrender.com/img/getImg?type=${gallery}`
+      )
       .then((res) => setImg(res.data));
   }, [gallery]);
 

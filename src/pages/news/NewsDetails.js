@@ -9,7 +9,7 @@ const NewsDetails = () => {
   console.log(id);
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/news/news_details/${id}`)
+      .get(`https://asssunnahfoundation.onrender.com/news/news_details/${id}`)
       .then((res) => setNews(res.data));
   }, []);
 

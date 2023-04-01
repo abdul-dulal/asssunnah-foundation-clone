@@ -13,7 +13,10 @@ const Donate = () => {
 
   const onSubmit = (values) => {
     axios
-      .post("http://localhost:3000/checkout/chekcout", values)
+      .post(
+        "https://asssunnahfoundation.onrender.com/checkout/chekcout",
+        values
+      )
       .then((res) => {
         window.location.replace(res.data.url);
       });
