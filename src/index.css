@@ -1,13 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Ubuntu;
+  background-color: white;
+}
+h1 {
+  font-family: Ubuntu;
+  font-size: 21px;
+  font-weight: 400;
+  font-style: normal;
+  color: #008e48;
+}
+p {
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  color: #545454;
+  line-height: 24px;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li:hover::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  margin-top: 8px;
+  background: #008e48;
+  color: #2a68ff;
+  bottom: -12px;
+}
+
+label {
+  font-size: 13px;
+  color: #545454];
 }

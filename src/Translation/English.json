@@ -1,0 +1,499 @@
+{
+  "Welcome": "Welcome",
+  "account": "My Account",
+  "donatebtn": "Donate",
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "project": "Projects",
+    "member": "Doner and Lifetime Member ",
+    "gellary": "Gellary",
+    "video": "Video",
+    "volunteer": "Volunteer Registration",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "donate_from": {
+    "fund": "Donation fund",
+    "email": "Phone/Email",
+    "amaount": "Donation Amaount ",
+    "button": "Donate"
+  },
+  "donate_from_err": {
+    "fund": "Select Donation Fund",
+    "email": "Input valid phone number or email",
+    "amaount": "Donation Amount is required"
+  },
+  "ass_sunnah_fundation": {
+    "title": "As-Sunnah Foundation ",
+    "desc": "As-Sunnah Foundation is a non-profit, non-political, and entirely charitable organization dedicated to human welfare. Following the ideals and footsteps of the teacher of humanity, liberator of mankind, and role model of generosity Prophet Muhammad (Saw), this organization is engaged in social reform, inculcation of great morality, establishing employment, poverty alleviation, low cost or free health care, expansion of Islamic teachings and culture, conducting multidisciplinary education projects, continuous program in building a clean mindset, above all using oral, written and modern media to make people obey Allah and abide by His Messenger (Saw).",
+    "education": "Education",
+    "help": "Charity",
+    "dawa": "Dawah"
+  },
+  "about": {
+    "title": "About",
+    "intro": "Introduction",
+    "norms": "Goals and Objectives",
+    "goal": "Goals and Objectives",
+    "activitis": "Activities",
+    "source": "Sources of funds and income",
+    "policy": "Expenditure policy",
+    "achive": "Achievements"
+  },
+  "intro": {
+    "title": "As-Sunnah Foundation",
+    "desc": "The As-Sunnah Foundation is a non-political, non-profitable government-registered organization dedicated to education, da'wah and full human welfare. It was established in 2017 by Shaikh Ahmadullah. He is the chairman of the organization and manages it directly. As-Sunnah Foundation was registered in 2019 from Joint Stock, Whose registration number is S-13111/2019. Since then, it has been working rigorously to serve the humanity, reform the society, developing the utmost morality, arrange various activities to build up a neat and clean mentality and ultimately to build up an ideal society following in the footsteps of the Prophet Muhammad, the teacher of humanity, the messenger of human liberation and peace and the ideal of human welfare. One of the goals of As-Sunnah Foundation is to build life and society based on the Quran and Sunnah and to propagate and spread authentic knowledge. It is our policy to adopt a moderate approach based on the Qur'an and Sunnah following the path of the righteous predecessors."
+  },
+  "norms": {
+    "title": "Principles and Norms",
+    "desc1": "The Holy Quran and the Sunnah of the Messenger of Allah (peace be upon him) are the main ideals of the As-Sunnah Foundation.",
+    "desc2": "It accepts the Qur'an and Sunnah in the light of the interpretation of the Salafe Salihin.",
+    "desc3": "It nurtures the aqeedah and vision of Ahlus-Sunnah wal-Jama’ah.",
+    "desc4": "It calls for shirk-free faith and bid‘at-free practices.",
+    "desc5": "It works for the unity and solidarity of the Ummah.",
+    "desc6": "It adopts moderation by avoiding extreme polarization as much as possible on divisive issues.",
+    "desc7": "It refrains from taking political action and position and work for the greater good of all irrespective of party affiliation."
+  },
+  "goal": {
+    "title": "Goals and Objectives",
+    "desc1": "The goal of the As-Sunnah Foundation is to gain the satisfaction of the Almighty Allah by conducting da'wah activities to prevent evil deeds in the light of the lifestyle of the Prophet (peace be upon him).",
+    "desc2": "(a) Institutional and sub-institutional Islamic and general education and career-oriented technical training initiatives across the country, especially in the comparatively neglected sections of society",
+    "desc3": "(b) service to humanity and",
+    "desc4": "(c) encouragement for good deeds are the prime objective of the As-sunnah Foundation."
+  },
+  "act": {
+    "title": "Activities",
+    "desc": "The As-Sunnah Foundation mainly works in three sectors: education, service and da'wah.",
+    "title2": "Educational activities",
+    "desc1": "Preparation of modern up-to-date textbooks and textbooks with basic teachings of Quran and Sunnah and establishment of madrasas to build wise scholars and dedicated souls.",
+    "desc2": "Organizing competitions and prize distribution on education, culture and various social and life-oriented subjects.",
+    "desc3": "Higher Islami Research Center.",
+    "desc4": "Arranging various term based Islamic education courses for working men and women.",
+    "desc5": "Establishment and management of schools, colleges, universities and technical schools with the spirit of As-Sunnah at the centre.",
+    "desc6": "Establishment of Sabahi Maktab for the spreading of basic education at the pre-primary level.",
+    "desc7": "Provide literacy and other ancillary expenses to prevent children from indigent families from dropping out of school."
+  },
+  "help": {
+    "title": "Charitable activities",
+    "desc1": "Provide financial assistance for handicrafts, machinery, technical, farm management training as well as self-reliance in eliminating unemployment and alleviating poverty.",
+    "desc2": "Provide relief assistance to affected areas from time to time and during natural disasters.",
+    "desc3": "Collect unused medicines and distribute them among distressed patients through various booths.",
+    "desc4": "Distribution of Iftar items to the needy during the month of Ramadan and organization of Da'wah.",
+    "desc5": "Distribution of Fitra, clothes and Eid items on the occasion of Eid among the needy.",
+    "desc6": "Arranging sacrifices on behalf of the affluent and distributing among the needy.",
+    "desc7": "Distribution of earning materials like rickshaws, sewing machines etc. among the needy."
+  },
+  "dawa": {
+    "title": "Da'wah activities",
+    "desc1": "Construction and management of ideal mosques to build a peaceful and prosperous society.",
+    "desc2": "Publication and dissemination of basic and authentic books highlighting pure Islamic knowledge, beliefs, policies and views.",
+    "desc3": "Taking initiatives to eradicate shirk-bid ‘at, polarization and extremism.",
+    "desc4": "Contribute documentaries of thematic discussion programs and disseminate through social media.",
+    "desc5": "To take various measures to eradicate religious and social prejudices and to prevent subcultures.",
+    "desc6": "Management of Family Counseling Department.",
+    "desc7": "Establishment of open ‘call center’ for religious inquiries and consultations."
+  },
+
+  "source": {
+    "title": "Sources of funds and income",
+    "desc": "The journey begins with the property and funds purchased with donations from the founding members of the Foundation.",
+    "desc1": "One-time and regular donations from members, supporters and well-wishers.",
+    "desc2": "Grants given by the public in a particular sector.",
+    "desc3": "Zakat, Fitra payable to affluent Muslims.",
+    "desc4": "Money recovered in special sectors including Iftar and Qurbani.",
+    "desc5": "Grants from government or private sources.",
+    "desc6": "5-10% administrative cost deducted from various projects for managing various projects.",
+    "desc7": "Proceeds from any project of the Foundation."
+  },
+  "policy": {
+    "title": "Expenditure policy",
+    "desc": "Donations are spent in the sector for which the donors donate. Money from one sector is not spent on another.",
+    "desc2": "One hundred percent of the money collected in the Zakat fund is distributed among the rightful owners.",
+    "desc3": "Detailed accounts of income and expenditure are maintained after completion of each project.",
+    "desc4": "The income and expenditure accounts of the foundation are audited by a chartered accountant once a year.",
+    "desc5": "All financial activities of As-Sunnah Foundation are monitored under the supervision of a team consisting of accounting experts."
+  },
+  "achive": {
+    "title": "Education",
+    "desc": "The foundation has started a madrasa with a syllabus of general and religious education with the aim of producing ingenious Islamic scholars and up-to-date preachers. The structure of this madrasa has been developed in such a way that the necessary religious knowledge is acquired after reaching a certain level. After this, the student will be able to get admitted in the general educational institution as well, if he wants, he will be able to continue his higher studies in the madrasa. The foundation will also initiate the establishment of Islamic schools and colleges in phases, In-Sha-Allah.The foundation has started a madrasa with a syllabus of general and religious education with the aim of producing ingenious Islamic scholars and up-to-date preachers. The structure of this madrasa has been developed in such a way that the necessary religious knowledge is acquired after reaching a certain level. After this, the student will be able to get admitted in the general educational institution as well, if he wants, he will be able to continue his higher studies in the madrasa. The foundation will also initiate the establishment of Islamic schools and colleges in phases, In-Sha-Allah.",
+    "title2": "Dawah",
+    "desc2": "In just two years, by the grace of Almighty Allah, the As-Sunnah Foundation has been able to spread the message of online and offline da'wah and pure religious notions among the Bengali-speaking people. Thousands of HD videos on various religious topics have been uploaded on the foundation's verified YouTube channel and verified Facebook page. From which billions of people have benefited. Our verified Facebook page and YouTube channel host a series of weekly live question and answer sessions titled 'Shariah Solutions' to answer the religious questions of the common people. About 100 episodes of the hour-long program have been aired so far.More than 250,000 copies of a book called 'Rasoolullah (sallallaahu 'alayhi wa sallam)' s morning and evening du'aa 'and zikr' and a pocket card called 'Masnoon du'aa' and zikr after five daily prayers' have been distributed. In addition, 27,000 copies of 'Ramadan Planner' have been distributed."
+  },
+  "project": {
+    "title": "Projects",
+    "title2": "Donation Fund",
+    "reliance": "Self-reliance project",
+    "qurbani": "Qurbani (Sacrificing animals) for all",
+    "relief": "Distribution of relief to flood victims",
+    "orphans": "Raising and educating orphans",
+    "sadga": "Sadaqah (Charity) Jariyah",
+    "clothe": "Distribution of winter clothes",
+    "tree": "Tree planting program",
+    "iftar": "Iftar and Ramadan food distribution",
+    "dars": "Weekly Dars",
+    "book": "Distribution of books and leaflets",
+    "sunnah": "Majlisus Sunnah",
+    "islam": "Spreading Islam",
+    "button": "Read More"
+  },
+  "reliance": {
+    "title": "Self-reliance project",
+    "desc": "Through the Self-Reliance Project, the As-Sunnah Foundation provides much-needed technical training and materials to the poor. The purpose of this project is to make unemployed and unskilled men and women self-reliant by providing financial assistance and necessary materials through technical training (separately) to enhance their skills.",
+    "desc2": "The importance of earning halal food is immense. In the Holy Qur’an, Allah says, ‘After the prayer is over, disperse in the land and seek the bounty of Allah; And remember Allah much, perhaps you may be successful. '(Surah Jumu'ah: verse 10)",
+    "desc3": "The Prophet (peace and blessings of Allaah be upon him) said, ‘No one ever eats better food than the food he has earned.’ (Saheeh Bukhari, 2072)",
+    "desc4": "They are given technical training to help the poor in their search for halal food. In addition to acquiring skills through training, at the same time they are taught the basic tenets and rules of Islam through famous Islamic scholars so that they can acquire basic knowledge of the religion and become principled and faithful citizens. So that they can be financially self-sufficient, as well as the true servants of Allah and simultaneously live their life abiding by the rules and ethics of Islam.",
+    "desc5": "We think that providing training, money and materials is not enough for many to become self-sufficient. To this end, we regularly supervise, follow up, and provide necessary advice to those trained, financially supported and material-assisted people by the Foundation. In this way we play a role in creating a skilled and ethically developed working population.",
+    "title2": "The kind of support that the As-Sunnah Foundation provides:",
+    "desc6": "Distribution of various training and materials for girls including block-batik, sewing, nakshi kantha, handicrafts, homemade food, pottery, jewelery making, embroidery",
+    "desc7": "Distribution of useful training materials for boys including driving, laundry, tile mason, mason, electrician, AC / fridge mechanic, graphic designer, programmer, painter",
+    "desc8": "Distribution of cattle, poultry and pigeon rearing among poor farmers",
+    "desc9": "Distribution of various income generating products including rickshaws and vans",
+    "desc10": "Under the self-reliance project, As-Sunnah Foundation has so far distributed vans and cash to 50 men after training and provided block-batik training to 102 women and related materials at a cost of 7,500 Taka individually"
+  },
+  "qurabni": {
+    "tilte": "Qurbani (Sacrificing animals) for all",
+    "desc": "Qurbani for all is part of the regular humanitarian activities of the As-Sunnah Foundation. Since its inception, the Foundation has been conducting sacrificial activities on behalf of pious rich people among the poor.",
+    "desc2": "Most of the sacrifices are usually city-centric. But more poor people live in villages. It is doubtful whether the number of cows sacrificed in a multi-storey building in the city is the same as in a few villages. Through the Sacrifice for All project, the As-Sunnah Foundation delivers a portion of the sacrifices of the urban rich to the underprivileged poor in remote areas.",
+    "desc3": "Foundation volunteers assist the Foundation in implementing projects at the field level.",
+    "desc4": "Note that the meat is distributed among the poor by sacrificing one goat in full and one-seventh of a cow in full.",
+    "desc5": "Under this project so far 676 cows and 16 thousand 497 goats have been sacrificed and distributed among the poor people in 51 districts of the country. In sha Allah the activities of this project will be implemented in every district and upazila in phases. "
+  },
+  "relif": {
+    "tilte": "Distribution of relief to flood victims",
+    "desc": "During the monsoon season, about 26,000 sq km of Bangladesh is flooded every year. At this time, especially in the northern part of the country, in particular the Banavasi people are often the victims of extreme misery. The As Sunnah Foundation conducts relief activities every year in the flood-hit districts of the country and takes the initiative to stand by the needy and helpless people.",
+    "desc2": "The importance and virtue of standing by the side of the afflicted people is much greater. Narrated Abu Huraira: The Prophet (peace and blessings of Allaah be upon him) said: Whoever relieves the suffering of a needy person, Allaah will relieve him in this world and in the Hereafter. Allah continues to help the servant, as long as he is engaged in the help of one of his brothers. '(Sunan Tirmidhi, Hadith-2945)",
+    "desc3": "Under this program, an opportunity is created to stand by the side of needy and misery-stricken people and the above hadith is followed.",
+    "desc4": "Relief items include rice, pulses, oil, potatoes, chira, candles, gas lighters, food saline and water purification tablets. Relief has already been distributed among more than 1500 families and cash has been distributed among 150 families. In addition, cash has been given to various flood-affected mosques and educational institutions and natural mustard cake and husk have been distributed among the owners of cattle which have been starved during the floods.In Sujan Para Char of Sariakandi Police Station in Bogra district, with the help of local people's representatives and administration, 30 houses and 16 toilets and 16 tubewells have been set up and distributed among the flood victims."
+  },
+  "education": {
+    "title": "Raising and educating orphans",
+    "desc": "The As-Sunnah Foundation takes care of orphans on behalf of the well-to-do people. The Foundation carries out all the responsibilities for their upbringing and improved education from the sponsor. Raising an orphan does not mean nurturing him or her neglectfully; Rather, he should be raised according to his ability (much like his own child). That's why the Foundation provides quality food, medical care and education for an orphan from the sponsor.",
+    "desc2": "Taking care of the orphans in the hope of Allah's pleasure and reward is a significant act of worship and the best gift. Narrated Sahl bin Saad: He said: The Messenger of Allah, may Allah bless him and grant him peace, said: I and the orphan's guardian will be like this in Paradise. (He indicated with his middle and index finger)",
+    "desc3": "At present, the foundation is taking care of 50 orphans and distressed children."
+  },
+  "sadga": {
+    "title": "Sadaqah (Charity) Jariyah",
+    "desc": "Sadqah Jariyah means: that the benefits of charity are not just one-time; Rather it continues for a long time. The benefits of a charity that is earned only once are rewarded only once. On the other hand, Allah, the Almighty, continues to reward for the benefits of the charity which last for a long time.",
+    "desc2": "Narrated from Abu Hurairah (may Allah be pleased with him), the Prophet (peace and blessings of Allah be upon him) said, ‘When a person dies, all his deeds cease except the three kinds of deeds. 1. Sadaqah Jariyah; 2. Knowledge that benefits others; 3. A pious child who keeps on praying for him. (Sahih Muslim: Hadith-1831)",
+    "desc3": "The As-Sunnah Foundation's Sadaqah Jariyah projects include construction of mosques and madrasas, digging of tube wells, distribution of religious books and construction of houses for the homeless.",
+    "desc5": "The responsibility for one of these projects can be taken solely. Again, if anyone wants, he can donate any amount to the Sadaqah Jariyah sector. That money will be spent by the authorities on the projects of Sadaqa Jariyah that deems important and necessary."
+  },
+  "clothes": {
+    "title": "Distribution of winter clothes",
+    "desc": "One of the teachings of Islam is human service. Every year, the As-Sunnah Foundation organizes a ‘Winter Clothing Distribution and Dawah Program’ to bring a little warmth to the helpless shivering cold-stricken people of remote areas.",
+    "desc2": "One of the teachings of Islam is human service. Every year, the As-Sunnah Foundation organizes a ‘Winter Clothing Distribution and Dawah Program’ to bring a little warmth to the helpless shivering cold-stricken people of remote areas.",
+    "desc3": "Over the last 3 years, As Sunnah Foundation has distributed about 22,335 winter clothes in 20 districts of the country including the northern part of the country. During the distribution of winter clothes in each spot, important discussions on the importance of Iman-Aqeedah, importance of Salat-Siam, ethics and honesty and special field of Da'wah books and leaflets were distributed through expert scholars and preachers."
+  },
+  "iftar": {
+    "title": "Iftar and Ramadan food distribution",
+    "desc": "Iftar and Ramadan food distribution is one of the regular programs of As-Sunnah Foundation. In order to enable the needy fasting people in the remote areas of the country to observe fasting and worship without any hindrance during the month of Ramadan, an initiative was taken to distribute Iftar items among them.",
+    "desc2": "Providing Iftar is a very important act. The Prophet (peace and blessings of Allaah be upon him) said: Whoever breaks the fast of a fasting person will be given the same reward as the fasting person. It will not reduce the reward of the fasting person at all. (Sunan Tirmidhi: Hadith-807; Sunan Ibn Majah: Hadith-1746)",
+    "desc3": "Over the past two years, the As-Sunnah Foundation has distributed Iftar items to 90,915 fasting people in 16 districts across the country.",
+    "desc4": "Among the Iftar items were gram flour, puffed rice, powdered milk, chira, dates, oil, sugar, semai, psyllium husk etc."
+  },
+  "dars": {
+    "title": "Weekly Dars",
+    "desc": "Under the Dawah program of As-Sunnah Foundation, weekly Dars is held on Iman-Aqeedah, Quran, Hadith, Tafsir, History, Deeni Masala-Masael including various contemporary issues. For now, a wise scholar of Vumipalli Jame Masjid Siddhirganj, Narayanganj, renowned media personality and Chairman of As-Sunnah Foundation Sheikh Ahmadullah is conducting Dars. There are plans for its inauguration in various mosques and institutions across the country in phases."
+  },
+  "book": {
+    "title": "Distribution of books and leaflets",
+    "desc": "The Foundation distributes various Islamic books and leaflets, including the Holy Quran free of charge on behalf of the Foundation as a way for Muslims to gain knowledge about faith, prayer and the rules of Islam. Under this project, more than one million copies of multiple booklets published by the Foundation's Publications Department have already been distributed."
+  },
+  "sunnah": {
+    "title": "Majlisus Sunnah",
+    "desc": "The As-Sunnah Foundation organizes a session called 'Majlisus Sunnah' every month to promote pure Islamic teachings, awareness and life-oriented religiosity, ideals, ethics and religious awareness among the common people based on the Qur'an and Sahih Sunnah. This exceptional event takes place at a convenient time every English month. This session will be made district-wise in phases In sha Allah."
+  },
+  "islam": {
+    "title": "Spreading Islam",
+    "desc": "Innumerable prophets and messengers have been sent to the world with the noble responsibility of spreading Islam. It was the duty of the Prophets and Messengers to guide those who do not believe in Allah, or those who have perverted beliefs, to the right path and to the path chosen by Allah. All the Prophets, as the absolute benefactors of His Ummah, enjoined their monotheism and pure worship and forbade polytheism, disbelief and wickedness. Allah Ta’ala says, “O Messenger! Convey everything revealed to you from your Lord. If you do not, then you have not delivered His message. Allah will ˹certainly˺ protect you from the people. Indeed, Allah does not guide the people who disbelieve.” (Al Ma’Idah verse-67)",
+    "desc2": "Since the stream of prophecy has ceased; Therefore, this responsibility of propagating Islam has been entrusted to this Ummah. The consequences of laxity in accomplishing this responsibility of propagating the religion of Islam is clear to us today. In the name of Islam, treacherous and selfish sects are creating various malpractices and separation among the Muslim community.",
+    "desc3": "One of the three basic functions of the As-Sunnah Foundation is to spread Dawah or Islam. It has been working in various ways to spread the true image of Islam in the light of the Holy Quran and Sahih Sunnah all over the world. Basically, the main goal and objective of the foundation is the multi-faceted service and spread of Islam. The weekly Dars, the monthly Majlisus Sunnah and various da'wah initiatives from its own studio are part of the Foundation's activities to spread Islam."
+  },
+  "tree": {
+    "title": "Tree planting program",
+    "desc": "The nature of the weather is changing. The country is burning with the intensity of heat. We are witnessing the consequences of our own hands, including climate change and deforestation. To avoid this you need to plant a lot of trees. Realizing this need, the As-Sunnah Foundation plans to plant fruit trees across the country every year. Arrangements were made to procure and plant fruit tree saplings in the remote areas of the country by collecting money from the common people. Through this, the common man is given the opportunity to participate in the charity and the poor are given the opportunity of year-round income.",
+    "desc2": "The importance and virtue of planting trees is immense. This is a good deed. If one plants fruit or forest trees for the benefit of man or animals and expects rewards through it, then it is a good sadaqah Jariah; The stream of reward may continue even after the death of the person. The Prophet (peace and blessings of Allaah be upon him) said, 'If a Muslim plants a tree or produces a grain and a person or a bird or an animal eats from it, it is a sadaqah for that person.' (Saheeh Bukhari: Hadith-2320, Sahih Muslim: Hadith-1553)",
+    "desc3": "The As-Sunnah Foundation usually seeks to plant improved varieties of fruit trees. So that besides protecting the environment, it can also be a source of income for the poor people. The trees planted in the first year are:",
+    "desc4": "Mango (Amrapali)",
+    "desc5": "Lychee (China-3)",
+    "desc6": "Seedless lemon",
+    "desc7": "Some Coconut Seedlings (Experimental)",
+    "desc8": "Some date palm seedlings (experimental)",
+    "desc9": "In 2021, a total of 65,792 trees have been planted in 50 districts. In sha Allah this trend will continue every year; Would rather be faster."
+  },
+  "member": {
+    "title": "Donar and Lifetime Member",
+    "title2": "As-Sunnah Foundation Mosque Complex",
+    "desc": "The mosque of the Prophet (peace and blessings of Allaah be upon him) was a center of many welfare besides offering prayers. Although Dhaka is a city of mosques, most of the mosques are limited to congregational prayers and Moktob (Morning kindergarten for the children to teach the Quran). As-Sunnah Foundation wants to build an ideal mosque in Dhaka, which will be dedicated to various charitable activities besides performing Salat. It includes regular religious education for people of different classes and professions, distribution of weekly summaries of khutba among the worshipers, opportunities to meet and get acquainted with the knowledgeable scholars, special corner for women and children, free primary health care for distressed patients and providing assistance in resolving family and personal disputes through counseling system. In-Sha-Allah there will be various activities including Musafirkhana (Inn) for the people who come to Dhaka for various temporary needs from the village.",
+    "desc2": "In-sha-Allah there will also be the head office of the As-Sunnah Foundation for all the charitable activities carried out across the country next to the mosque. From where the Foundation's countrywide mosques, madrasas and various services and humanitarian activities will be conducted.",
+    "desc3": "As-Sunnah Foundation Mosque Complex and Islamic Center will contain ",
+    "desc4": "An ideal Jame Masjid.",
+    "desc5": "Modern (non-residential) madrasa with syllabus of general and religious education.",
+    "desc6": "Head Office of As-Sunnah Foundation.",
+    "desc7": "Shariah based Solution Section.",
+    "desc8": "Higher Islamic Research Center.",
+    "desc9": "Islamic Cultural Center for Children and Adolescents.",
+    "desc10": "Da'wah Training Center for Imams and Khatibs.",
+    "desc11": "Department of Family Counseling.",
+    "desc12": "Department of Social Welfare Management.",
+    "desc13": "Public Library.",
+    "desc14": "Department of Modern Media.",
+    "desc15": "Free medical center.",
+    "desc16": "Inn for travelers.",
+    "desc17": "Institutions and departments managed by the complex",
+    "title3": "01. Islamic schools and colleges",
+    "desc18": "One of the basic objectives of establishing As-Sunnah Foundation is to play a role in education. In order to implement this goal, Islamic schools and colleges will be established besides establishing madrasas to build up ideal and principled citizens and will be run by the complex In-Sha-Allah.",
+    "title4": "02. Basic Islam and Technical Education Center",
+    "desc19": "The purpose of this section is to make the youth self-reliant as well as to develop them as lovers of Islam and equip them with the basic knowledge of religion. The As-Sunnah Foundation provides technical training to men and women (separately) through skilled trainers. At the same time, they are taught the basic tenets of Islam by eminent Islamic scholars so that they could acquire a basic knowledge of the religion. It will be made permanent and institutionalized in the As-Sunnah Foundation Complex.",
+    "title5": "03. Competition department for Islamic knowledge.",
+    "desc20": "Islamic Knowledge Competition is held with the aim of encouraging people of all classes and professions including children and adolescents towards the practice of religious knowledge. In the As-Sunnah complex it will be run more smoothly in separate departments In-Sha-Allah.",
+    "title6": "04. Relief and Social Welfare Management Department",
+    "desc21": "One of the objectives of establishing As-Sunnah Foundation is to serve the humanity. The Foundation has been working relentlessly in the service of humanity with the financial support of the philanthropists. The Department of Relief and Social Welfare will work towards this goal so that these activities can be conducted for the welfare of the destitute and helpless throughout the year. From this department In-Sha-Allah all the humanitarian activities will be conducted smoothly and flawlessly.",
+    "title7": "05. Scholars' Self-Reliance Project",
+    "desc22": "The purpose of this project is to make Imams, Muazzins, Khatibs and young scholars self-dependent. Respected scholars will be trained and provided with necessary materials so that they can become self-reliant and can as a result selflessly serve the country, nation and ummah. The kind of training that will be offered: Graphic Design, Web Developing, Outsourcing, Fisheries, Animal rearing, Agriculture etc.",
+    "title8": "06. Orphans, Widows and Husband-Abandoned Care Center",
+    "desc23": "The responsibility of care for the orphans, their proper development and education will be managed from this department. As well as the widows and widowers will be provided with food, clothing and shelter. And in-sha-Allah they will be made self-dependent by training them in various technical subjects"
+  },
+  "memberR": {
+    "title": "Membership Call",
+    "desc": "'Lifetime Member', 'Donor Member' and 'Square feet Donor' are being collected as per Article 4 B and C of the constitution of As-Sunnah Foundation. Donor members, lifetime members and Square feet donors will be able to make any suggestions for the benefit of the Foundation. The one-time grant collected from the members of these two councils will be used for the construction of 'As-Sunnah Foundation Complex'. Note that this is a Sadaqah Jariyah project, the reward of which will continue to be included in the record even after death In sha Allah.",
+    "desc2": "Anyone who agrees with the strength and ideals of As-Sunnah Foundation can apply to become Life Members and Donor Members.",
+    "title2": "Lifetime Member",
+    "desc3": "All members who donate at least 100,000 / = (One Lakh) or more to the foundation fund for the foundation will become lifetime members of the foundation.",
+    "title3": "Donor Member",
+    "desc4": "All members who donate at least 50,000 / = (fifty thousand) or more to the foundation fund for the foundation, will be the donor members of the foundation.",
+    "desc5": "Donors and lifetime members will be the member of As-sunnah Foundation till death. In the interest of the Foundation, their advice will be sought as required and they will be informed about various activities from time to time.",
+    "desc6": "Membership rules:",
+    "desc7": "All members of the foundation must follow the Qur'an and Sunnah and be free from shirk (Polytheism) and bid'at (Innovation).",
+    "desc8": "Payment for membership fee must be halal.",
+    "desc9": "Fill out the prescribed form.",
+    "desc10": "Subject to the above conditions, any man or woman can become a donor or life member of As-Sunnah Foundation.",
+    "desc11": "Moreover, any amount of money can be donated for the establishment of the complex.",
+    "desc12": "For overall communication and cooperation 01408405060 (mobile, whatsapp, imo, telegram)"
+  },
+  "memberFrom": {
+    "title": "Application Form",
+    "desc": "Member Type",
+    "type": "Lifetime Member",
+    "type2": "Donar Member",
+    "plac": "Please Select Member Type",
+    "desc2": "Name",
+    "plac2": "Mohammad Abdullah ",
+    "desc3": "Fahters Name",
+    "plac3": "Mohammad Ali",
+    "desc4": "Probashi",
+    "desc5": "Phone Number ",
+    "desc6": "Email",
+    "desc7": "Occupation",
+    "plac4": "Select Occupation",
+    "desc8": "Reference",
+    "plac5": "Rabbana Takabbana Minna",
+    "desc9": "Address",
+    "plac6": "House No-3, Road-3, Jhigatola",
+    "desc10": "* Marked fields is mandatory, others are optional",
+    "desc11": "All information of the Honorable Members is Trust Property to us. Members' information will not be disclosed publicly or to anyone else, In Sa Allah. However, we are collecting contact information for updates and sending feedback from the Foundation.",
+    "button": "Submit"
+  },
+  "member_from_err": {
+    "member": "Required",
+    "name": "Name must be at least 5 and Maximum 100 characters long",
+    "fname": "Required. Fathers Name must be at least 5 and Maximum 50 characters long",
+    "phone": "Please enter valid phone number",
+    "email": "Please enter valid email",
+    "address": "Address must be 10 to 500 characters long"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "iftar": "Iftar Distribution",
+    "orphans": "Orphan",
+    "qurbani": "Qurbani",
+    "food": "Food Distribution",
+    "tubewell": "Tube well Distribution",
+    "relif": "Relief distribution",
+    "van": "Van Distribution",
+    "winter": "Winter Clothing"
+  },
+  "video": {
+    "title": "Video"
+  },
+
+  "videoTitle": {
+    "0": "As-Sunnah Foundation's food distribution among distressed and helpless families report 2019",
+    "1": "As-Sunnah Foundation's Qurbani Report 2019",
+    "2": "Relief distribution report among flood victims 2019",
+    "3": "As-Sunnah Foundation's Iftar Organizing Report 2019",
+    "4": "As-Sunnah Foundation Winter Clothing Distribution Report 2019",
+    "5": "Winter clothing distribution report 2020",
+    "6": "As-Sunnah Foundation's Qurbani on behalf of the affluents report 2020",
+    "7": "Distribution of winter clothes and da'wah activities 2020-21",
+    "8": "Ramadan Planner 2021",
+    "9": "As-Sunnah Foundation's Iftar Distribution Report 2021",
+    "10": "Self-reliance(Swanirvor) project 2020-21 organized by As-Sunnah Foundation",
+    "11": "Tree Planting Program 2021 Illustrated Report",
+    "12": "Qurbani for All 2021"
+  },
+
+  "volunteer": {
+    "title": "Volunteer Registration",
+    "title5": "Personal Information",
+    "desc": "Emergency Phone Num    ",
+    "desc2": "Email",
+    "desc3": "Facebook ID Link",
+    "desc4": "NID Number",
+    "desc5": "Educational Information    ",
+    "desc6": "Occupation",
+    "desc7": "Volunteer For  ",
+    "desc8": "Special Skill",
+    "title2": "Permanent Address",
+    "desc9": "District / Thana",
+    "desc10": "Address",
+    "title3": "Present Address",
+    "desc11": "District / Thana",
+    "desc12": "Address",
+
+    "plac": "JSC,SSC ,BA, BSC",
+    "plac2": "Teacher , Cooking, Rescuing",
+    "plac3": "Accountant , Medical Treatment",
+    "plac4": "Select District/Thana",
+    "plac5": "Shoronkhola , Shukipur",
+    "plac6": "House No-3, Road-3, Jhigatola"
+  },
+
+  "volunteer_from_err": {
+    "emergency": "Please enter valid phone number Emergency Phone Number cannot be same as primary phone number",
+    "edu": "Must be at least 2 characters and maximum 50 characters long. Exam / Degree names only",
+    "help": "Must be at least 5 characters and maximum 100 characters long",
+    "pesa": "Required",
+    "pAddress": "Address must be at least 10 characters long"
+  },
+  "update": {
+    "title": "সাম্প্রতিক সংবাদ",
+    "button": "আরও"
+  },
+
+  "change": "Together Let’s make a change",
+
+  "64254b8eb0698eddf05a7b08": {
+    "title": "As-Sunnah Foundation Masjid Complex",
+    "desc": "The As-Sunnah Foundation Masjid Complex will be the focal point of the multi-faceted activities of the As-Sunnah Foundation for the welfare of the country, nation and ummah. In-Sha-Allah it will be the center of various humanitarian and public welfare projects, including an ideal mosque, a modern madrasah with an integrated syllabus aimed at creating an Islamic scholar to meet the needs of the age."
+  },
+  "64254b8eb0698eddf05a7b09": {
+    "title": "Ramadan Iftar Fund",
+    "desc": "One of the regular programs of the As-Sunnah Foundation is the distribution of Iftar and Ramadan food. The Foundation has taken initiative to distribute Iftar items among the needy fasting people in remote areas of the country so that they can observe fasting and worship without any hindrance during the month of Ramadan."
+  },
+  "64254b8eb0698eddf05a7b0a": {
+    "title": "Qurbani Fund",
+    "desc": "Many needy people wait to taste beef/mutton only on the Eid of Qurbani every year. That is why every year the As-Sunnah Foundation organizes the distribution of meat of Qurbani under the title 'Qurbani for All'. Since Qurbani is an act of worship that can be performed through a representative, the Foundation distributes meat on behalf of the well-to-do and distributes meat among the destitute and helpless people in various poor areas of the country, including North Bengal."
+  },
+  "64254b8eb0698eddf05a7b0b": {
+    "title": "Zakat Fund",
+    "desc": "Your Zakat has the power to transform lives, from sheltering those who have no home, to feeding families who have endured hunger for days on end. Please, donate your Zakat where the need is greatest."
+  },
+  "64254b8eb0698eddf05a7b0c": {
+    "title": "General Fund",
+    "desc": "If someone donates to a specific sector, the As-Sunnah Foundation spends it in that sector. The general fund is spent on every charitable activity of As- Sunnah Foundation. Also, the expenditure of different activities such as religious education of As -Sunnah humanitarian services and dawah activities related total initiatives is met from the general fund."
+  },
+  "64254b8eb0698eddf05a7b0d": {
+    "title": "Winter Appeal",
+    "desc": "One of the invaluable teachings of Islam is human service. Every year, the As-Sunnah Foundation organizes a 'Winter Clothing Distribution and Da'wah Program' to bring a little warmth to the helpless cold-stricken people in remote areas of Bangladesh."
+  },
+  "64254b8eb0698eddf05a7b0e": {
+    "title": "Monthly Donation Fund",
+    "desc": "The monthly donor member of the As-Sunnah Foundation is a permanent donor of the organization. Regular donations of the monthly donor members are a means of sustainable income for the multi-faceted da'wah activities and overall development of the As-Sunnah Foundation."
+  },
+  "64254b8eb0698eddf05a7b0f": {
+    "title": "Self Reliant Fund",
+    "desc": "‘Swanirvar’ is a self-reliance project of As-Sunnah Foundation. The purpose of this project is to make unemployed and unskilled men and women self-reliant by providing financial assistance and necessary materials through technical training (separately) to enhance their skills."
+  },
+  "64254b8eb0698eddf05a7b10": {
+    "title": "Flood Emergency",
+    "desc": "About 26,000 sq km (18%) of Bangladesh is flooded by monsoons every year. At this time, especially in the northern part of the country, the flood-affected people are the victims of extreme misery. Every year, the As-Sunnah Foundation carries out relief activities in the flood-hit districts of the country and takes the initiative to stand by the needy and helpless people."
+  },
+  "64254b8eb0698eddf05a7b11": {
+    "title": "Tree Plantation Fund",
+    "desc": "It is proved from various hadiths that planting trees is a good deed. As long as the planted tree is alive, all the animals and people will get flowers, fruits and shade from that tree or any benefit, it will be written in the record book of the planter as a charity. Even if the planter dies, this reward will continue to reach his record."
+  },
+  "complex": {
+    "hadis": "The likeness of those who spend their wealth in the way of Allah is as the likeness of a grain of corn, which produces seven spikes, a hundred grains in each spike. Allah multiplies for whomever He wills. Allah is Bounteous, Omniscient. [Surah Baqara: verse 261]",
+    "hadis2": "Whoever builds a mosque, Allah will make for him a house in Paradise. [Sahih Bukhari: Hadith 450; Sahih Muslim: Hadith 533]",
+    "desc": "আস-সুন্নাহ ফাউন্ডেশন কমপ্লেক্স প্রজেক্টে এককালীন কমপক্ষে ১০০,০০০ (এক লক্ষ) বা তদূর্ধ টাকা দান করে ফাউন্ডেশনের আজীবন সদস্য এবং এককালীন কমপক্ষে ৫০,০০০ (পঞ্চাশ হাজার) বা তদূর্ধ টাকা দান করে দাতা সদস্য হওয়া যাবে।",
+    "desc2": "আজীবন সদস্য ও দাতা সদস্য হওয়ার জন্য এখানে ক্লিক করুন:",
+    "desc3": "আজীবন সদস্য ও দাতা সদস্যগণ আমৃত্যু ফাউন্ডেশনের সদস্য থাকবেন। ফাউন্ডেশনের স্বার্থে প্রয়োজন অনুযায়ী তাঁদের পরামর্শ চাওয়া হবে এবং সময়ে সময়ে বিভিন্ন কার্যক্রম সম্পর্কে অবহিত করা হবে এবং সম্মাননা সনদ প্রদান করা হবে।",
+    "desc4": "এটি একটি সাদকায়ে জারিয়াহমূলক প্রকল্প, যার সাওয়াব মৃত্যুর পরও আমলনামায় যুক্ত হতে থাকবে ইন-শা-আল্লাহ"
+  },
+  "bnak": {
+    "account": "Account Name",
+    "bank": "bank",
+    "branch": "branch",
+    "rnumber": "Routing Number",
+    "code": "Swift Code",
+    "accountN": "Account Number"
+  },
+  "iftarf": {
+    "hadis": "It was narrated from Zaid bin Khalid Al-Juhani that the Messenger of Allah ﷺ said: “Whoever gives food for a fasting person to break his fast, he will have a reward like theirs, without that detracting from their reward in the slightest.”(Ibn Majah, Hadith 1746)",
+    "account": "Bkash/Nagad/Rocket",
+    "desc": "As Sunnah Foundation Zakat Bank Account",
+    "or": "or",
+    "desc2": "Over the past two years, the As-Sunnah Foundation has distributed Iftar items to 90,915 fasting people in 16 districts across the country.",
+    "desc3": "Among the Iftar items were gram flour, mudri, powdered milk, chira, dates, oil, sugar, semai, rose husk etc."
+  },
+  "qurbani": {
+    "title": "As Sunnah Foundation Qurbani Bank Account",
+    "hadis": "Allah (SWT) says, “So pray and sacrifice to your Lord ˹alone˺.” (Surah Al-Kawthar, verse 2)",
+    "hadis2": "Narrated Ibn 'Umar: The Messenger of Allah (ﷺ) stayed in Al-Madinah for ten years performing the Udhiyah.(Sahih Tirmidhi Hadith 1507)",
+    "desc": "Also, any amount of money can be sent to this sector. With that money, the meat is distributed among the destitute by slaughtering separate animals without the purpose of sacrifice.",
+    "desc2": "Like other projects, after the implementation of the 'Sacrifice for All' project, its income-expenditure and overall report is published as per the rules.",
+    "desc3": "On behalf of the As-Sunnah Foundation, 8 sacrificial cows and 209 goat meat have been distributed among 6193 families in 40 districts of the country in the last two years.",
+    "desc4": "Sacrifice Packages:  ",
+    "desc5": "1 medium size cow: 70 thousand taka. ( Including processing cost ",
+    "desc6": "1 medium size goat 12 thousand taka. ( Including processing cost )",
+    "desc7": "One-seventh of a cow is 10 thousand taka. ( Including processing cost )"
+  },
+  "general": {
+    "hadis": "Allah says in the Holy Quran, “The example of those who spend their wealth in the Way of Allah is like that of a grain of corn that sprouts seven ears, and in every ear, there are a hundred grains. Thus, Allah multiplies the action of whomsoever He wills. Allah is Munificent, All-Knowing.” (Sura Baqarah, Ayat 261)",
+    "hadis2": "Narrated Abu Huraira: The Prophet (ﷺ) said, Every day two angels come down from Heaven and one of them says, O Allah! Compensate every person who spends in Your Cause, and the other (angel) says, O Allah! Destroy every miser. (Sahih al-Bukhari 1442) ",
+    "desc": "The general fund assists the most to sustain the activity of the foundation. All welfare activities are conducted in the sense of general donation. There is no fixed amount for general donation, any amount can be donated.",
+    "desc2": "Monthly donor members: The monthly donor member of the As-Sunnah Foundation is a permanent donor to the organization. Because the only stable income of the foundation is the regular donations of the monthly donor members. Regular donations to monthly donor members are a means of sustainable income for the multi-faceted da'wah activities and overall development of the As-Sunnah Foundation. ",
+    "desc3": "Best deeds are consistent, even if small.",
+    "desc4": "Abu Huraira reported, The Messenger of Allah, peace and blessings be upon him, said, take up good deeds only as much as you are able, for the best deeds are those done regularly even if they are few. (Sunan Ibn Majah 4240)",
+    "desc5": "Since the Foundation has some regular costs and some activities need to be conducted regularly, the development progress of the Foundation and the continuity of its multifaceted welfare work depends largely on this sector of sustainable donations."
+  },
+  "winter": {
+    "hadis": "Abu Hurairah (RAA) narrated that the Messenger of Allah (ﷺ) said:“Allah helps His slave as long as he helps his brother.”(Muslim Hadith 1508)",
+    "desc": "Over the last 3 years, As-Sunnah Foundation has distributed about 22335 winter clothes in 20 districts across the country including the northern part of the country.",
+    "desc2": "This year, the As-Sunnah Foundation has distributed winter clothes and conducted da'wah activities among 11,450 needy families in 22 spots.",
+    "desc3": " Before the distribution of winter clothes in each spot, discussions were held by wise ulama to inculcate faith, the importance of prayer, the necessity of honesty, and common sense among the people suffering from cold."
+  },
+  "monthly": {
+    "hadis": "Allah says in the Holy Quran, “The example of those who spend their wealth in the Way of Allah is like that of a grain of corn that sprouts seven ears, and in every ear, there are a hundred grains. Thus, Allah multiplies the action of whomsoever He wills. Allah is Munificent, All-Knowing.” (Sura Baqarah, Ayat 261)",
+    "hadis2": "Narrated Abu Huraira: The Prophet (ﷺ) said, Every day two angels come down from Heaven and one of them says, O Allah! Compensate every person who spends in Your Cause, and the other (angel) says, O Allah! Destroy every miser. (Sahih al-Bukhari 1442) ",
+    "desc": "The general fund assists the most to sustain the activity of the foundation. All welfare activities are conducted in the sense of general donation. There is no fixed amount for general donation, any amount can be donated.",
+    "desc2": "Monthly donor members: The monthly donor member of the As-Sunnah Foundation is a permanent donor to the organization. Because the only stable income of the foundation is the regular donations of the monthly donor members. Regular donations to monthly donor members are a means of sustainable income for the multi-faceted da'wah activities and overall development of the As-Sunnah Foundation.",
+    "desc3": "Best deeds are consistent, even if small.",
+    "desc4": "Abu Huraira reported, The Messenger of Allah, peace and blessings be upon him, said, take up good deeds only as much as you are able, for the best deeds are those done regularly even if they are few. (Sunan Ibn Majah 4240)"
+  },
+  "treef": {
+    "hadis": "Our beloved prophet Muhammad (ﷺ) said, 'There is none amongst the Muslims who plants a tree or sows seeds, and then a bird, or a person or an animal eats from it, but is regarded as a charitable gift for him.'(Sahih al-Bukhari 2320)",
+    "hadis2": "The Messenger of Allah(ﷺ), peace and blessings be upon him, said, ‘Even if the Resurrection were established upon one of you while he has in his hand a sapling, let him plant it.’(Musnad Aḥmad 12902)",
+    "desc": "It is proved from various hadiths that planting trees is a good deed. As long as the planted tree is alive, all the animals and people will get flowers, fruits and shade from that tree or any benefit, it will be written in the record book of the planter as a charity. Even if the planter dies, this reward will continue to reach his record.",
+    "desc2": "One of the reasons for global warming is the loss of environmental balance. The number of trees is decreasing day by day. The great advice of the Prophet (ﷺ) is essential for the protection of human civilization and to prevent climate change and global warming. Realizing this need, the As-Sunnah Foundation has undertaken a nationwide tree planting program. In-sha-Allah, as part of this program, fruit trees will be planted on a priority basis across the country every year."
+  },
+  "contact": {
+    "title": "Contact",
+    "title2": "Contact Form",
+    "name": "Your Name",
+    "email": "Your Email",
+    "subject": "Subject",
+    "text": "Message",
+    "btn": "Submit",
+    "address": "Where are we?",
+    "fullad": "Contact Details",
+    "add": "Address",
+    "desc": "As-Sunnah Foundation",
+    "desc2": "Plot-60, Road-3, Block-C, (Opposite Siraj Convention Center)",
+    "desc3": "Aftabnagar, Dhaka-1212",
+    "phone": "Phone",
+    "emailad": "Email"
+  }
+}
