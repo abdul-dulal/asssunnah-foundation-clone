@@ -7,11 +7,11 @@ const Funadation = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="container flex  my-5">
-      <div className="w-5/12 mt-7">
+    <div className="container sm:flex block  lg:px-0 sm:gap-3    my-5">
+      <div className="sm:w-5/12 w-full mt-7 sm:block  flex justify-center">
         <img src={golden} className="rounded-full" alt="" />
       </div>
-      <div className="w-7/12  space-y-5 mt-5">
+      <div className=" sm:w-7/12 w-full  space-y-5 mt-5">
         <h1> {t("ass_sunnah_fundation.title")}</h1>
         <div className="h-[2px] w-full bg-[#BBBBBB]" />
         <p>{t("ass_sunnah_fundation.desc")}</p>

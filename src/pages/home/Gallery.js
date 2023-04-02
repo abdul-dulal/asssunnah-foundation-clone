@@ -16,7 +16,7 @@ const Gallery = () => {
   return (
     <div className="container">
       <h3 className="text-center text-[24px] my-8">{t("navbar.gellary")}</h3>
-      <div className="grid grid-cols-4 gap-7 ">
+      <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-7 ">
         {img.map((e) => (
           <div className="relative">
             <PhotoProvider speed={() => 800}>
@@ -24,7 +24,7 @@ const Gallery = () => {
                 <div>
                   <img
                     src={e.img}
-                    className="cursor-pointer h-48  w-full rounded-md"
+                    className="cursor-pointer sm:h-48 h-60  w-full rounded-md"
                     alt=""
                   />
                   <div className="absolute top-0 left-0 h-full w-full bg-black opacity-0 hover:opacity-60  cursor-pointer  text-white flex items-center justify-center gap-2 text-xl translate duration-700 ">

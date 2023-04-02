@@ -4,10 +4,10 @@ import Donation from "../../pages/donation/Donation";
 import Donationdetails from "../../pages/donation/Donationdetails";
 import Gallery from "../../pages/gallery/Gallery";
 import Home from "../../pages/home/Home";
-import Projects from "../../pages/home/Projects";
 import Member from "../../pages/member/Member";
 import News from "../../pages/news/News";
 import NewsDetails from "../../pages/news/NewsDetails";
+import Project from "../../pages/project/Project";
 import Success from "../../pages/Success";
 import Video from "../../pages/Video";
 import Volunteer from "../../pages/volunteer/Volunteer";
@@ -16,7 +16,7 @@ export const PublicRoute = [
   { path: "/", name: "home", Component: Home },
   { path: "/home", name: "home", Component: Home },
   { path: "/about", name: "About", Component: About },
-  { path: "/project", name: "About", Component: Projects },
+  { path: "/project", name: "About", Component: Project },
   { path: "/gallery", name: "About", Component: Gallery },
   { path: "/member", name: "About", Component: Member },
   { path: "/video", name: "About", Component: Video },

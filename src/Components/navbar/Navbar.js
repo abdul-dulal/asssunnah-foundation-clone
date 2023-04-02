@@ -1,42 +1,91 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import Submenu from "./Submenu";
 
 const Navbar = () => {
   const { t } = useTranslation();
+  let activeStyle = {
+    color: "#008E48",
+  };
 
   return (
     <div className="bg-[#0A3B1E]">
       <div className="container ">
         <navbar>
-          <div className=" flex gap-8 text-white py-3 text-base font-normal">
+          <div className=" lg:flex hidden gap-8 text-white py-3 text-base font-normal">
             <li className="  hover:text-primary">
-              <Link to="/">{t("navbar.home")}</Link>
+              <NavLink
+                to="/"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                {t("navbar.home")}
+              </NavLink>
             </li>
             <li className="  hover:text-primary">
-              <Link to="/about">{t("navbar.about")}</Link>
+              <NavLink
+                to="/about"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                {t("navbar.about")}
+              </NavLink>
             </li>
             <li className="  hover:text-primary">
-              <Link to="/project">{t("navbar.project")}</Link>
+              <NavLink
+                to="/project"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                {t("navbar.project")}
+              </NavLink>
             </li>
 
             <li className="  hover:text-primary">
-              <Link to="/member">{t("navbar.member")}</Link>
+              <NavLink
+                to="/member"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                {t("navbar.member")}
+              </NavLink>
             </li>
             <li className="  hover:text-primary">
-              <Link to="/gallery">{t("navbar.gellary")}</Link>
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to="/gallery"
+              >
+                {t("navbar.gellary")}
+              </NavLink>
             </li>
             <li className="  hover:text-primary">
-              <Link to="/video">{t("navbar.video")}</Link>
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to="/video"
+              >
+                {t("navbar.video")}
+              </NavLink>
             </li>
             <li className="  hover:text-primary">
-              <Link to="/volunteer">{t("navbar.volunteer")}</Link>
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to="/volunteer"
+              >
+                {t("navbar.volunteer")}
+              </NavLink>
             </li>
             <li className="  hover:text-primary">
-              <Link to="/news">{t("navbar.news")}</Link>
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to="/news"
+              >
+                {t("navbar.news")}
+              </NavLink>
             </li>
             <li className="  hover:text-primary">
-              <Link to="/contact">{t("navbar.contact")}</Link>
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to="/contact"
+              >
+                {t("navbar.contact")}
+              </NavLink>
             </li>
           </div>
         </navbar>

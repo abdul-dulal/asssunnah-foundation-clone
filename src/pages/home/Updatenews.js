@@ -17,7 +17,7 @@ const Updatenews = () => {
     <div className="bg-secodary py-8">
       <div className="container">
         <h3 className="text-center text-[24px] my-6">{t("update.title")}</h3>
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-6">
           {news.slice(0, 3).map((e) => (
             <div
               className="bg-white rounded-md p-3 cursor-pointer"

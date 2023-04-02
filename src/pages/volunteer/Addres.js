@@ -6,13 +6,13 @@ const Addres = ({ Field, ErrorMessage }) => {
   return (
     <div className="space-y-5">
       <p className="text-[17px]">{t("volunteer.title2")}</p>
-      <div className="flex items-center  relative w-full  gap-10 ">
-        <div className="w-2/6 text-end">
-          <label className=" before:content-['*']  before:text-red-700 before:text-xl ">
+      <div className="sm:flex block sm:items-center  relative w-full  gap-10 ">
+        <div className="sm:w-2/6 w-full sm:text-end my-2">
+          <label className=" before:content-['*_']  before:text-red-700 before:text-xl ">
             {t("volunteer.desc9")} :
           </label>
         </div>
-        <div className="w-4/6">
+        <div className="sm:w-4/6 w-full">
           <Field
             type="text"
             name="dist"
@@ -22,13 +22,13 @@ const Addres = ({ Field, ErrorMessage }) => {
           <ErrorMessage name="dist" className="" />
         </div>
       </div>
-      <div className="flex items-center  relative w-full  gap-10 ">
-        <div className="w-2/6 text-end">
-          <label className=" before:content-['*']  before:text-red-700 before:text-xl ">
+      <div className="sm:flex block sm:items-center  relative w-full  gap-10 my-2">
+        <div className="sm:w-2/6 w-full sm:text-end my-2">
+          <label className=" before:content-['*_']  before:text-red-700 before:text-xl ">
             {t("volunteer.desc10")} :
           </label>
         </div>
-        <div className="w-4/6">
+        <div className="sm:w-4/6 w-full">
           <Field
             as="textarea"
             name="pAddress"
@@ -41,13 +41,13 @@ const Addres = ({ Field, ErrorMessage }) => {
 
       <p className="text-[17px]">{t("volunteer.title3")}</p>
 
-      <div className="flex items-center  relative w-full  gap-10 ">
-        <div className="w-2/6 text-end">
-          <label className=" before:content-['*']  before:text-red-700 before:text-xl ">
+      <div className="sm:flex block sm:items-center  relative w-full  gap-10 my-2 ">
+        <div className="sm:w-2/6 w-full sm:text-end my-2">
+          <label className=" before:content-['*_']  before:text-red-700 before:text-xl ">
             {t("volunteer.desc9")} :
           </label>
         </div>
-        <div className="w-4/6">
+        <div className="sm:w-4/6 w-full">
           <Field
             type="text"
             name="pdist"
@@ -57,13 +57,13 @@ const Addres = ({ Field, ErrorMessage }) => {
           <ErrorMessage name="pdist" className="" />
         </div>
       </div>
-      <div className="flex items-center  relative w-full  gap-10 ">
-        <div className="w-2/6 text-end">
-          <label className=" before:content-['*']  before:text-red-700 before:text-xl ">
+      <div className="sm:flex block  sm:items-center  relative w-full  gap-10 ">
+        <div className="sm:w-2/6 w-full sm:text-end my-2">
+          <label className=" before:content-['*_']  before:text-red-700 before:text-xl ">
             {t("volunteer.desc10")} :
           </label>
         </div>
-        <div className="w-4/6">
+        <div className="sm:w-4/6 w-full">
           <Field
             as="textarea"
             name="paraddress"

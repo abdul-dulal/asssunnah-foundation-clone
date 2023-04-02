@@ -16,15 +16,13 @@ const Video = () => {
         <div>
           <h3 className="text-center text-[24px] my-6">{t("navbar.video")}</h3>
           <div className=" container mt-7">
-            <div className=" grid grid-cols-3 gap-20 py-6">
+            <div className=" grid lg:grid-cols-3 sm:grid-cols-2  justify-center gap-16 py-6">
               {url.map((e, index) => {
                 const title = index;
                 return (
                   <div key={index}>
                     <iframe
-                      width="355"
-                      height="200"
-                      className="rounded-lg "
+                      className="rounded-lg sm:w-[355px] w-full sm:h-[200px] h-[300px] "
                       src={e}
                       title="YouTube video player"
                       frameborder="0"

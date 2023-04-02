@@ -28,9 +28,9 @@ const Gallery = () => {
         </div>
       </div>
       <div className="bg-secodary">
-        <div className="container sm:flex py-7 gap-5">
-          <div className="lg:w-[20%] sm:w-2/4 w-full  border-r-2  border-gray-200">
-            <div className="space-y-3 sm:block hidden">
+        <div className="container sm:flex flex py-7 gap-5">
+          <div className="lg:w-[20%] sm:w-2/4 w-[45%]  border-r-2  border-gray-200">
+            <div className="space-y-3 ">
               <p
                 className={`cursor-pointer py-2  ${
                   gallery === "iftar"
@@ -112,10 +112,9 @@ const Gallery = () => {
                 {t("gallery.winter")}
               </p>
             </div>
-            {/* <Menu gallery={gallery} setGallery={setGallery} /> */}
           </div>
           <div className="bg-white shadow-md rounded-lg p-5 w-full">
-            <div className="grid grid-cols-3 gap-6 ">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2  gap-6 ">
               {img?.map((e) => (
                 <div className="relative">
                   <PhotoProvider speed={() => 800}>

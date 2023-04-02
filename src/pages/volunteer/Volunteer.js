@@ -44,28 +44,30 @@ const Volunteer = () => {
         >
           {({ errors, touched }) => (
             <Form>
-              <div className="container bg-white shadow-md rounded-md  py-6">
-                <div className=" grid grid-cols-2 gap-8 ">
-                  <div>
-                    <p className="text-[17px] ml-10">
-                      {t("volunteer.title5")}{" "}
-                    </p>
-                    <Personalinfo Field={Field} ErrorMessage={ErrorMessage} />
+              <div className="container">
+                <div className=" bg-white shadow-md rounded-md sm:px-4 px-6  py-6">
+                  <div className=" grid lg:grid-cols-2 gap-8 ">
+                    <div>
+                      <p className="text-[17px] sm:ml-10">
+                        {t("volunteer.title5")}
+                      </p>
+                      <Personalinfo Field={Field} ErrorMessage={ErrorMessage} />
+                    </div>
+                    <div>
+                      <Addres Field={Field} ErrorMessage={ErrorMessage} />
+                    </div>
                   </div>
-                  <div>
-                    <Addres Field={Field} ErrorMessage={ErrorMessage} />
-                  </div>
-                </div>
-                <p className="text-center py-3 text-red-600">
-                  {t("memberFrom.desc10")}
-                </p>
+                  <p className="text-center py-3 text-red-600">
+                    {t("memberFrom.desc10")}
+                  </p>
 
-                <button
-                  type="submit"
-                  className=" block  rounded h-10 w-full bg-primary text-white mt-5"
-                >
-                  {t("memberFrom.button")}
-                </button>
+                  <button
+                    type="submit"
+                    className=" block  rounded h-10 w-full bg-primary text-white mt-5"
+                  >
+                    {t("memberFrom.button")}
+                  </button>
+                </div>
               </div>
             </Form>
           )}

@@ -30,22 +30,22 @@ const Video = () => {
       </div>
       <div className="bg-secodary py-10">
         <div className=" bg-white shadow-lg rounded-md container py-7">
-          <div className=" grid grid-cols-3 gap-6 py-6">
+          <div className=" grid lg:grid-cols-3 sm:grid-cols-2 gap-6 py-6">
             {url.map((e, index) => {
               const title = index;
               return (
-                <div key={index}>
+                <div key={index} className="">
                   <iframe
-                    width="355"
-                    height="200"
-                    className="rounded-lg "
+                    className="rounded-lg  w-full sm:h-[200px] h-64"
                     src={e}
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
                   ></iframe>
-                  <p className="mt-2 text-center">{t(`videoTitle.${title}`)}</p>
+                  <p className="mt-2 md:text-center  ">
+                    {t(`videoTitle.${title}`)}
+                  </p>
                 </div>
               );
             })}

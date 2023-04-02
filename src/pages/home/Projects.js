@@ -11,7 +11,7 @@ const Projects = () => {
     <div>
       <div className="container">
         <h3 className="text-center text-[24px] my-6">{t("navbar.project")}</h3>
-        <div className="grid grid-cols-3 gap-7">
+        <div className="grid lg:grid-cols-3 sm:grid-cols-2   gap-7">
           <div
             style={{
               backgroundImage:
@@ -63,14 +63,16 @@ const Projects = () => {
               backgroundImage:
                 "linear-gradient(45deg, rgb(0, 153, 204), rgb(0, 153, 153))",
             }}
-            className="h-[500px] px-6 rounded-lg grid grid-flow-row"
+            className="h-[500px] px-6 rounded-lg grid grid-flow-row "
           >
-            <h2 className="text-3xl text-white text-center pt-16">
-              {t("project.tree")}
-            </h2>
-            <p className="text-white text-center text-[17px] leading-6">
-              {t("tree.desc9")}
-            </p>
+            <div>
+              <h2 className="text-3xl text-white text-center pt-16">
+                {t("project.tree")}
+              </h2>
+              <p className="text-white text-center text-[17px] leading-6">
+                {t("tree.desc9")}
+              </p>
+            </div>
             <div className="flex  justify-center">
               <button
                 className="bg-primary text-white h-[44px] w-36 rounded py-2 mt-8"

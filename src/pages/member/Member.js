@@ -12,14 +12,14 @@ const Member = () => {
         </h2>
       </div>
       <div className="bg-secodary">
-        <div className="container py-8 grid grid-cols-2 gap-8">
+        <div className="container py-8 grid lg:grid-cols-2 gap-8">
           <div className=" w-full">
             <iframe
-              width="555"
               height="315"
               src="https://www.youtube.com/embed/FRAoIxlQBkU"
               title="YouTube video player"
               frameborder="0"
+              className="w-full"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>

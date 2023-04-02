@@ -14,11 +14,11 @@ const Change = () => {
   }, []);
 
   return (
-    <div className="bg-secodary">
-      <div className="text-center text-3xl py-7">
+    <div className="bg-secodary my-12">
+      <div className="text-center text-3xl py-9">
         <h2>{t("change")}</h2>
       </div>
-      <div className="container grid grid-cols-3 gap-7 rounded-md ">
+      <div className="container grid lg:grid-cols-3 sm:grid-cols-2  gap-7 rounded-md ">
         {donates.map((e) => {
           return (
             <div
@@ -50,7 +50,7 @@ const Change = () => {
           );
         })}
       </div>
-      <div className="flex  justify-center">
+      <div className="flex  justify-center pb-8">
         <button
           className="bg-primary text-white h-10 w-64 rounded py-2 mt-8"
           onClick={() => [navigate("/donate")]}

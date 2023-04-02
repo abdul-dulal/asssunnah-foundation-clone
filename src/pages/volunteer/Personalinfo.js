@@ -7,13 +7,13 @@ const Personalinfo = ({ ErrorMessage, Field }) => {
   return (
     <div>
       <div className=" space-y-6">
-        <div className="flex items-center  relative w-full  gap-10 ">
-          <div className="w-2/6 text-end">
-            <label className="  before:content-['*']  before:text-red-700 before:text-xl ">
+        <div className="sm:flex block  sm:items-center  relative w-full  gap-10 ">
+          <div className="sm:w-2/6 w-full  sm:text-end sm:my-0 my-2">
+            <label className="  before:content-['*_']  before:text-red-700 before:text-xl ">
               {t("memberFrom.desc2")} :
             </label>
           </div>
-          <div className="w-4/6">
+          <div className="sm:w-4/6 w-full">
             <Field
               type="text"
               name="name"
@@ -24,22 +24,22 @@ const Personalinfo = ({ ErrorMessage, Field }) => {
           </div>
         </div>
 
-        <div className="flex items-center  relative w-full  gap-10 ">
-          <div className="w-2/6 text-end">
+        <div className="sm:flex block  sm:items-center  relative w-full  gap-10 ">
+          <div className="sm:w-2/6 w-full  sm:text-end sm:my-0 my-2">
             <label className="">{t("memberFrom.desc4")} :</label>
           </div>
-          <div className="w-4/6">
+          <div className="sm:w-4/6 w-full">
             <Field type="radio" name="" />
           </div>
         </div>
 
-        <div className="flex items-center  relative w-full  gap-10 ">
-          <div className="w-2/6 text-end">
-            <label className=" before:content-['*']  before:text-red-700 before:text-xl ">
+        <div className="sm:flex block  sm:items-center  relative w-full  gap-10 ">
+          <div className="sm:w-2/6 w-full  sm:text-end sm:my-0 my-2">
+            <label className=" before:content-['*_']  before:text-red-700 before:text-xl ">
               {t("memberFrom.desc5")} :
             </label>
           </div>
-          <div className="w-4/6">
+          <div className="sm:w-4/6 w-full">
             <Field
               type="text"
               name="phone"
@@ -49,13 +49,13 @@ const Personalinfo = ({ ErrorMessage, Field }) => {
             <ErrorMessage name="phone" className="" />
           </div>
         </div>
-        <div className="flex items-center  relative w-full  gap-10 ">
-          <div className="w-2/6 text-end">
-            <label className=" before:content-['*']  before:text-red-700 before:text-xl ">
+        <div className="sm:flex block  sm:items-center  relative w-full  gap-10 ">
+          <div className="sm:w-2/6 w-full  sm:text-end sm:my-0 my-2">
+            <label className=" before:content-['*_']  before:text-red-700 before:text-xl ">
               {t("volunteer.desc")} :
             </label>
           </div>
-          <div className="w-4/6">
+          <div className="sm:w-4/6 w-full">
             <Field
               type="text"
               name="emergency"
@@ -65,13 +65,13 @@ const Personalinfo = ({ ErrorMessage, Field }) => {
             <ErrorMessage name="emergency" className="" />
           </div>
         </div>
-        <div className="flex items-center  relative w-full  gap-10 ">
-          <div className="w-2/6 text-end">
-            <label className=" before:content-['*']  before:text-red-700 before:text-xl ">
+        <div className="sm:flex block  sm:items-center  relative w-full  gap-10 ">
+          <div className="sm:w-2/6 w-full  sm:text-end sm:my-0 my-2">
+            <label className=" before:content-['*_']  before:text-red-700 before:text-xl ">
               {t("memberFrom.desc6")} :
             </label>
           </div>
-          <div className="w-4/6">
+          <div className="sm:w-4/6 w-full">
             <Field
               type="email"
               name="email"
@@ -81,13 +81,13 @@ const Personalinfo = ({ ErrorMessage, Field }) => {
             <ErrorMessage name="email" className="" />
           </div>
         </div>
-        <div className="flex items-center  relative w-full  gap-10 ">
-          <div className="w-2/6 text-end">
+        <div className="sm:flex block  sm:items-center  relative w-full  gap-10 ">
+          <div className="sm:w-2/6 w-full  sm:text-end sm:my-0 my-2">
             <label className="  before:text-red-700 before:text-xl ">
               {t("volunteer.desc3")} :
             </label>
           </div>
-          <div className="w-4/6">
+          <div className="sm:w-4/6 w-full">
             <Field
               type="text"
               name="fb"
@@ -97,13 +97,13 @@ const Personalinfo = ({ ErrorMessage, Field }) => {
           </div>
         </div>
 
-        <div className="flex items-center  relative w-full  gap-10 ">
-          <div className="w-2/6 text-end">
+        <div className="sm:flex block  sm:items-center  relative w-full  gap-10 ">
+          <div className="sm:w-2/6 w-full  sm:text-end sm:my-0 my-2">
             <label className="   before:text-red-700 before:text-xl ">
               {t("volunteer.desc4")} :
             </label>
           </div>
-          <div className="w-4/6">
+          <div className="sm:w-4/6 w-full">
             <Field
               type="text"
               name="nid"
@@ -113,13 +113,13 @@ const Personalinfo = ({ ErrorMessage, Field }) => {
           </div>
         </div>
 
-        <div className="flex   items-center relative w-full  gap-10 ">
-          <div className="w-2/6 text-end">
-            <label className="  before:content-['*'] before:text-xl">
+        <div className="sm:flex block   sm:items-center relative w-full  gap-10 ">
+          <div className="sm:w-2/6 w-full  sm:text-end sm:my-0 my-2">
+            <label className="  before:content-['*_'] before:text-xl">
               {t("volunteer.desc5")}
             </label>
           </div>
-          <div className="w-4/6">
+          <div className="sm:sm:w-4/6 w-full w-full">
             <Field
               type="text"
               name="edu"
@@ -130,13 +130,13 @@ const Personalinfo = ({ ErrorMessage, Field }) => {
           </div>
         </div>
 
-        <div className="flex   items-center relative w-full  gap-10 ">
-          <div className="w-2/6 text-end">
-            <label className="  before:content-['*'] before:text-xl">
+        <div className="sm:flex  block  sm:items-center relative w-full  gap-10 ">
+          <div className="sm:w-2/6 w-full  sm:text-end sm:my-0 my-2">
+            <label className="  before:content-['*_'] before:text-xl">
               {t("memberFrom.desc7")} :
             </label>
           </div>
-          <div className="w-4/6">
+          <div className=" sm:sm:w-4/6 w-full w-full">
             <Field
               as="select"
               placeholder={t("memberFrom.plac")}
@@ -157,13 +157,13 @@ const Personalinfo = ({ ErrorMessage, Field }) => {
           </div>
         </div>
 
-        <div className="flex   items-center relative w-full  gap-10 ">
-          <div className="w-2/6 text-end">
-            <label className=" before:content-['*']  before:text-xl ">
+        <div className="sm:flex  block  sm:items-center relative w-full  gap-10 ">
+          <div className="sm:w-2/6 w-full  sm:text-end sm:my-0 my-2">
+            <label className=" before:content-['*_']  before:text-xl ">
               {t("volunteer.desc7")} :
             </label>
           </div>
-          <div className="w-4/6">
+          <div className=" sm:sm:w-4/6 w-full w-full">
             <Field
               as="textarea"
               name="help"
@@ -174,11 +174,11 @@ const Personalinfo = ({ ErrorMessage, Field }) => {
           </div>
         </div>
 
-        <div className="flex   items-center relative w-full  gap-10 ">
-          <div className="w-2/6 text-end">
+        <div className="sm:flex block   sm:items-center relative w-full  gap-10 ">
+          <div className="sm:w-2/6 w-full  sm:text-end sm:my-0 my-2">
             <label className=" ">{t("volunteer.desc8")} :</label>
           </div>
-          <div className="w-4/6">
+          <div className="sm:sm:w-4/6 w-full w-full">
             <Field
               as="textarea"
               name="exprience"

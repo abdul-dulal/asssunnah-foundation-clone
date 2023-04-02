@@ -6,6 +6,8 @@ import { useTranslation } from "react-i18next";
 import logo from "../../assets/img/logo-white.7ff767ec.png";
 import Navbar from "./Navbar";
 import { Link, useNavigate } from "react-router-dom";
+import small from "../../../src/assets/img/smalllogo.png";
+import Submenu from "./Submenu";
 const Headertop = () => {
   const [active, setActive] = useState("bn");
   const navigate = useNavigate();
@@ -42,18 +44,24 @@ const Headertop = () => {
       </div>
       <div className="container flex justify-between items-center my-5">
         <div>
-          <Link to="/">
+          <Link to="/" className="lg:flex hidden">
             <img src={logo} className="cursor-pointer" alt="" />
           </Link>
+          <div className="flex items-center gap-3">
+            <Submenu />
+            <Link to="/" className="lg:hidden flex">
+              <img src={small} className="h-10" alt="" />
+            </Link>
+          </div>
         </div>
         <div className="flex gap-3">
-          <button className=" px-3 h-10 rounded bg-primary text-white text-lg">
+          <button className=" sm:px-3 px-1 h-10 rounded bg-primary text-white text-lg">
             {t("account")}
           </button>
 
           <button
             onClick={() => navigate("/donate")}
-            className=" px-3 h-10 rounded bg-primary text-white text-lg"
+            className=" sm:px-3 px-1 h-10 rounded bg-primary text-white text-lg"
           >
             {t("donatebtn")}
           </button>
