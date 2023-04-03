@@ -14,9 +14,11 @@ const WinterAccount = ({ price }) => {
       amaount: value.amaount,
     };
 
-    axios.post("http://localhost:3000/checkout/chekcout", data).then((res) => {
-      window.location.replace(res.data.url);
-    });
+    axios
+      .post("https://asssunnahfoundation.onrender.com/checkout/chekcout", data)
+      .then((res) => {
+        window.location.replace(res.data.url);
+      });
   };
   return (
     <div>

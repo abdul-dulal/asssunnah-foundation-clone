@@ -34,11 +34,13 @@ const MemberFrom = () => {
     address: Yup.string().required(t("member_from_err.address")),
   });
   const onSubmit = (values) => {
-    axios.post("http://localhost:3000/member/addMember", values).then((res) => {
-      if (res.data.success) {
-        navigate("/memberSuccess");
-      }
-    });
+    axios
+      .post("https://asssunnahfoundation.onrender.com/member/addMember", values)
+      .then((res) => {
+        if (res.data.success) {
+          navigate("/memberSuccess");
+        }
+      });
   };
   return (
     <div>
