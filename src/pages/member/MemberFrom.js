@@ -2,9 +2,12 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import * as Yup from "yup";
 import { Formik, Form, Field, ErrorMessage } from "formik";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const MemberFrom = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const initialValues = {
     member: "",
     name: "",
@@ -31,7 +34,11 @@ const MemberFrom = () => {
     address: Yup.string().required(t("member_from_err.address")),
   });
   const onSubmit = (values) => {
-    console.log(values, "click");
+    axios.post("http://localhost:3000/member/addMember", values).then((res) => {
+      if (res.data.success) {
+        navigate("/memberSuccess");
+      }
+    });
   };
   return (
     <div>
@@ -54,14 +61,16 @@ const MemberFrom = () => {
                   <Field
                     as="select"
                     name="member"
-                    className="bg-white border border-[#BFBFBF]  text-base text-[#54545]  block w-full  focus:outline-none focus:ring-0 rounded-md"
+                    className="bg-white border border-[#BFBFBF]  text-base  text-[#BFCDE0]  block w-full  focus:outline-none focus:ring-0  p-2 rounded-md"
                   >
-                    <option value="">{t("memberFrom.plac")}</option>
-                    <onpointerdown value={t("memberFrom.plac")}>
-                      {t("memberFrom.type")}
-                    </onpointerdown>
+                    <option value="" className="hidden text-[#BFCDE0]">
+                      {t("memberFrom.plac")}
+                    </option>
                     <option value={t("memberFrom.type2")}>
                       {t("memberFrom.type2")}
+                    </option>
+                    <option value={t("memberFrom.type")}>
+                      {t("memberFrom.type")}
                     </option>
                   </Field>
                   <ErrorMessage name="member" className="" />
@@ -79,7 +88,7 @@ const MemberFrom = () => {
                     type="text"
                     name="name"
                     placeholder={t("memberFrom.plac2")}
-                    className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#54545]  text-base px-2 focus:outline-none focus:ring-0 rounded-md"
+                    className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#BFCDE0]  text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                   />
                   <ErrorMessage name="name" className="" />
                 </div>
@@ -96,7 +105,7 @@ const MemberFrom = () => {
                     type="text"
                     name="fname"
                     placeholder={t("memberFrom.plac3")}
-                    className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#54545] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
+                    className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#BFCDE0] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                   />
                   <ErrorMessage name="fname" className="" />
                 </div>
@@ -107,7 +116,12 @@ const MemberFrom = () => {
                   <label className="">{t("memberFrom.desc4")}</label>
                 </div>
                 <div className="w-4/6">
-                  <Field type="radio" name="" />
+                  <input
+                    type="checkbox"
+                    id=""
+                    name=""
+                    className="rounded-full h-4 w-4"
+                  />
                 </div>
               </div>
 
@@ -122,7 +136,7 @@ const MemberFrom = () => {
                     type="text"
                     name="phone"
                     placeholder="01xxxxx"
-                    className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#54545] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
+                    className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#BFCDE0] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                   />
                   <ErrorMessage name="phone" className="" />
                 </div>
@@ -139,7 +153,7 @@ const MemberFrom = () => {
                     type="email"
                     name="email"
                     placeholder="abdullah@gmail.com"
-                    className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#54545] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
+                    className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#BFCDE0] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                   />
                   <ErrorMessage name="email" className="" />
                 </div>
@@ -154,7 +168,7 @@ const MemberFrom = () => {
                     type="text"
                     name="pesa"
                     placeholder={t("memberFrom.plac4")}
-                    className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#54545] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
+                    className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#BFCDE0] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                   />
                 </div>
               </div>
@@ -168,7 +182,7 @@ const MemberFrom = () => {
                     type="text"
                     name="reference"
                     placeholder={t("memberFrom.plac5")}
-                    className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#54545] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
+                    className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#BFCDE0] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                   />
                 </div>
               </div>
@@ -184,7 +198,7 @@ const MemberFrom = () => {
                     type="text"
                     name="address"
                     placeholder={t("memberFrom.plac6")}
-                    className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#54545] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
+                    className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#BFCDE0] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                   />
                   <ErrorMessage name="address" className="" />
                 </div>

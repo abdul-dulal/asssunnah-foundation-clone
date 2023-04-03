@@ -30,7 +30,6 @@ module.exports = {
   },
   plugins: [
     require("tailwind-scrollbar-hide"),
-    require("@tailwindcss/forms"),
     require("@tailwindcss/line-clamp"),
     require("tw-elements/dist/plugin"),
   ],

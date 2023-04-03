@@ -3,22 +3,24 @@ import { useTranslation } from "react-i18next";
 import Title from "../../Components/shere/Title";
 import Video from "../../Components/shere/Video";
 import Account from "./Account";
+import { useNavigate } from "react-router-dom";
 const price = [
-  { amaount: "2500৳", id: 1 },
-  { amaount: "5000৳", id: 2 },
-  { amaount: "7500৳", id: 3 },
-  { amaount: "10000৳", id: 4 },
-  { amaount: "12500৳", id: 5 },
-  { amaount: "15000৳", id: 6 },
-  { amaount: "17500৳", id: 7 },
-  { amaount: "20000৳", id: 8 },
+  { amaount: "2500", id: 1 },
+  { amaount: "5000", id: 2 },
+  { amaount: "7500", id: 3 },
+  { amaount: "10000", id: 4 },
+  { amaount: "12500", id: 5 },
+  { amaount: "15000", id: 6 },
+  { amaount: "17500", id: 7 },
+  { amaount: "20000", id: 8 },
   { amaount: "other", other: 9 },
 ];
 
 const Complex = ({ details, isLoading }) => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   if (isLoading) {
-    return <p>loading...</p>;
+    return <p></p>;
   }
   const { url, _id, title } = details;
   return (
@@ -35,7 +37,12 @@ const Complex = ({ details, isLoading }) => {
             <div className="bg-white shadow-md rounded-lg  p-5 w-[560px] mt-8 space-y-3">
               <h3 className="text-lg text-center">{t("memberR.title")}</h3>
               <h2>{t("complex.desc")}</h2>
-              <p className="text-primary">{t("complex.desc2")}</p>
+              <p
+                className="text-primary cursor-pointer"
+                onClick={() => navigate("/member")}
+              >
+                {t("complex.desc2")}
+              </p>
               <h2>{t("complex.desc3")}</h2>
             </div>
           </div>

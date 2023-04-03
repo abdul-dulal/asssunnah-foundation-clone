@@ -5,6 +5,7 @@ import Donationdetails from "../../pages/donation/Donationdetails";
 import Gallery from "../../pages/gallery/Gallery";
 import Home from "../../pages/home/Home";
 import Member from "../../pages/member/Member";
+import MemberSuccess from "../../pages/MemberSuccess";
 import News from "../../pages/news/News";
 import NewsDetails from "../../pages/news/NewsDetails";
 import Project from "../../pages/project/Project";
@@ -26,5 +27,6 @@ export const PublicRoute = [
   { path: "/success", name: "About", Component: Success },
   { path: "/contact", name: "About", Component: Contact },
   { path: "/donate", name: "About", Component: Donation },
+  { path: "/memberSuccess", name: "About", Component: MemberSuccess },
   { path: "/donate/:category", name: "About", Component: Donationdetails },
 ];

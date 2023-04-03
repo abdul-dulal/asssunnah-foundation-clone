@@ -44,7 +44,7 @@ const Donate = () => {
                     <Field
                       as="select"
                       name="fund"
-                      className="border border-[#BFBFBF] py-2 w-full rounded  placeholder:text-[#BFBFBF] text-base px-3 focus:outline-none"
+                      className="border border-[#BFBFBF] py-2 w-full rounded bg-white placeholder:text-[#BFBFBF] text-base px-3 focus:outline-none"
                     >
                       <option value="hello" className="hidden text-[#BFBFBF]">
                         {t("project.title2")}

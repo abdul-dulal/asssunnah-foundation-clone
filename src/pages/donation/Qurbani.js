@@ -2,12 +2,12 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import Title from "../../Components/shere/Title";
 import Video from "../../Components/shere/Video";
-import Account from "./Account";
+
 import QurbaniAccount from "./QurbaniAccount";
 
 const Qurbani = ({ details, isLoading }) => {
   const { t } = useTranslation();
-  if (isLoading) return <p>loading...</p>;
+  if (isLoading) return <p></p>;
   const { url, _id, title } = details;
   return (
     <div>

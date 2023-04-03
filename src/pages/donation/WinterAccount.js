@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -8,7 +9,14 @@ const WinterAccount = ({ price }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e.target.email.value);
+    const data = {
+      email: e.target.email.value,
+      amaount: value.amaount,
+    };
+
+    axios.post("http://localhost:3000/checkout/chekcout", data).then((res) => {
+      window.location.replace(res.data.url);
+    });
   };
   return (
     <div>
@@ -24,7 +32,7 @@ const WinterAccount = ({ price }) => {
                 }`}
                 onClick={() => setValue(balance)}
               >
-                {balance.amaount}
+                {balance.amaount} ৳
               </h3>
             </div>
           );
@@ -40,12 +48,12 @@ const WinterAccount = ({ price }) => {
             onClick={() => setCheck(!check)}
           />
           <label htmlFor="any" className="cursor-pointer ml-3">
-            যেকোনো পরিমাণের অনুদান
+            {t("accounting.desc")}
           </label>
           <div className="flex items-center  relative w-full  gap-10 ">
             <div className="w-2/6 text-end">
               <label className=" before:content-['*_'] before:text-red-700 before:text-xl ">
-                অনুদানের পরিমাণ
+                {t("accounting.amaount")}
               </label>
             </div>
             {value?.amaount === "other" ? (
@@ -54,7 +62,9 @@ const WinterAccount = ({ price }) => {
                   type="text"
                   name="name"
                   disabled={check}
-                  onChange={({ target }) => setValue(target?.value)}
+                  onChange={({ target }) =>
+                    setValue({ amaount: target?.value })
+                  }
                   value="10"
                   className="disabled:bg-gray-200 disabled:cursor-not-allowed border border-[#BFBFBF] w-full block py-2  placeholder:text-[#54545]  text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                 />
@@ -65,7 +75,9 @@ const WinterAccount = ({ price }) => {
                   type="text"
                   name="name"
                   disabled={check}
-                  onChange={({ target }) => setValue(target?.value)}
+                  onChange={({ target }) =>
+                    setValue({ amaount: target?.value })
+                  }
                   value={value?.amaount}
                   className="disabled:bg-gray-200 disabled:cursor-not-allowed border border-[#BFBFBF] w-full block py-2  placeholder:text-[#54545]  text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                 />
@@ -75,7 +87,7 @@ const WinterAccount = ({ price }) => {
 
           <div className="flex items-center  relative w-full  gap-10  ">
             <div className="w-2/6 text-end">
-              <label className="  ">নাম</label>
+              <label className="  ">{t("accounting.name")}</label>
             </div>
             <div className="w-4/6">
               <input
@@ -89,7 +101,7 @@ const WinterAccount = ({ price }) => {
           <div className="flex items-center  relative w-full  gap-10  ">
             <div className="w-2/6 text-end">
               <label className=" before:content-['*_'] before:text-red-700 before:text-xl ">
-                ইমেইল
+                {t("accounting.email")}
               </label>
             </div>
             <div className="w-4/6">

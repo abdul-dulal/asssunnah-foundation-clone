@@ -4,18 +4,24 @@ import { useTranslation } from "react-i18next";
 import { AiFillEye } from "react-icons/ai";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
-
+import nprogress from "nprogress";
 const Gallery = () => {
   const { t } = useTranslation();
   const [gallery, setGallery] = useState("iftar");
   const [img, setImg] = useState();
 
   useEffect(() => {
+    nprogress.start();
     axios
       .get(
         `https://asssunnahfoundation.onrender.com/img/getImg?type=${gallery}`
       )
-      .then((res) => setImg(res.data));
+      .then((res) => {
+        if (res.data) {
+          setImg(res.data);
+          nprogress.done();
+        }
+      });
   }, [gallery]);
 
   return (

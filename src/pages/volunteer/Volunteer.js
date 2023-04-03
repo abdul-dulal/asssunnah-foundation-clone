@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { PersonalSchema } from "../../lib/PersonalSchema";
 import Addres from "./Addres";
@@ -6,6 +6,7 @@ import Personalinfo from "./Personalinfo";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 
 const Volunteer = () => {
+  const [show, setShow] = useState(false);
   const { t } = useTranslation();
   const validationSchema = PersonalSchema();
   const initialValues = {
@@ -51,10 +52,20 @@ const Volunteer = () => {
                       <p className="text-[17px] sm:ml-10">
                         {t("volunteer.title5")}
                       </p>
-                      <Personalinfo Field={Field} ErrorMessage={ErrorMessage} />
+                      <Personalinfo
+                        Field={Field}
+                        ErrorMessage={ErrorMessage}
+                        show={show}
+                        setShow={setShow}
+                      />
                     </div>
                     <div>
-                      <Addres Field={Field} ErrorMessage={ErrorMessage} />
+                      <Addres
+                        Field={Field}
+                        ErrorMessage={ErrorMessage}
+                        show={show}
+                        setShow={setShow}
+                      />
                     </div>
                   </div>
                   <p className="text-center py-3 text-red-600">

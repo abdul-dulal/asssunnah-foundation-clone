@@ -2,16 +2,22 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-
+import nprogress from "nprogress";
 const News = () => {
   const [news, setNews] = useState([]);
   const { t } = useTranslation();
   const navigate = useNavigate();
 
   useEffect(() => {
+    nprogress.start();
     axios
       .get("https://asssunnahfoundation.onrender.com/news/news")
-      .then((res) => setNews(res.data));
+      .then((res) => {
+        if (res.data) {
+          setNews(res.data);
+          nprogress.done();
+        }
+      });
   }, []);
 
   return (

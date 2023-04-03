@@ -1,8 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Title from "../../Components/shere/Title";
-import Account from "./Account";
+
 import Complex from "./Complex";
 import Flood from "./Flood";
 import General from "./General";
@@ -13,6 +12,7 @@ import Reliant from "./Reliant";
 import Tree from "./Tree";
 import Winter from "./Winter";
 import Zakat from "./Zakat";
+import nprogress from "nprogress";
 
 const Donationdetails = () => {
   const [details, setDetails] = useState();
@@ -20,11 +20,13 @@ const Donationdetails = () => {
   const { category } = useParams();
 
   useEffect(() => {
+    nprogress.start();
     axios
       .get(`https://asssunnahfoundation.onrender.com/donate/${category}`)
       .then((res) => {
         setDetails(res.data);
         setIsloading(false);
+        nprogress.done();
       });
   }, [category]);
 

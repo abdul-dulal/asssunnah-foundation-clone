@@ -5,17 +5,17 @@ import Video from "../../Components/shere/Video";
 import WinterAccount from "./WinterAccount";
 
 const price = [
-  { amaount: "300৳", id: 1 },
-  { amaount: "500৳", id: 2 },
-  { amaount: "1000৳", id: 3 },
-  { amaount: "2000৳", id: 4 },
-  { amaount: "5000৳", id: 5 },
+  { amaount: "300", id: 1 },
+  { amaount: "500", id: 2 },
+  { amaount: "1000", id: 3 },
+  { amaount: "2000", id: 4 },
+  { amaount: "5000", id: 5 },
   { amaount: "10000", other: 6 },
 ];
 
 const Monthly = ({ isLoading, details }) => {
   const { t } = useTranslation();
-  if (isLoading) return <p>loading...</p>;
+  if (isLoading) return <p></p>;
   const { url, _id, title } = details;
   return (
     <div>

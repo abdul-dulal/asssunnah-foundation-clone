@@ -4,17 +4,17 @@ import Title from "../../Components/shere/Title";
 import Video from "../../Components/shere/Video";
 import Account from "./Account";
 const price = [
-  { amaount: "100৳", id: 1 },
-  { amaount: "1000৳", id: 2 },
-  { amaount: "5000৳", id: 3 },
-  { amaount: "1000৳", id: 4 },
-  { amaount: "50000৳", id: 5 },
+  { amaount: "100", id: 1 },
+  { amaount: "1000", id: 2 },
+  { amaount: "5000", id: 3 },
+  { amaount: "1000", id: 4 },
+  { amaount: "50000", id: 5 },
   { amaount: "other", other: 6 },
 ];
 
 const General = ({ details, isLoading }) => {
   const { t } = useTranslation();
-  if (isLoading) return <p>loading...</p>;
+  if (isLoading) return <p></p>;
   const { url, _id, title } = details;
   return (
     <div>

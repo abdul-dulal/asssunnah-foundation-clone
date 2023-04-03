@@ -2,15 +2,21 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-
+import nprogress from "nprogress";
 const Change = () => {
   const [donates, setDonate] = useState([]);
   const navigate = useNavigate();
   const { t } = useTranslation();
   useEffect(() => {
+    nprogress.start();
     axios
       .get("https://asssunnahfoundation.onrender.com/donate/donate")
-      .then((res) => setDonate(res.data.slice(0, 6)));
+      .then((res) => {
+        if (res.data) {
+          setDonate(res.data.slice(0, 6));
+          nprogress.done();
+        }
+      });
   }, []);
 
   return (

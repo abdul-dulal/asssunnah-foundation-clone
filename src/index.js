@@ -5,6 +5,7 @@ import App from "./App";
 import "./i18n";
 import { BrowserRouter } from "react-router-dom";
 import * as te from "tw-elements";
+import "nprogress/nprogress.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>

@@ -6,17 +6,17 @@ import Video from "../../Components/shere/Video";
 import WinterAccount from "./WinterAccount";
 
 const price = [
-  { amaount: "100৳", id: 1 },
-  { amaount: "1000৳", id: 2 },
-  { amaount: "5000৳", id: 3 },
-  { amaount: "10000৳", id: 4 },
-  { amaount: "50000৳", id: 5 },
+  { amaount: "100", id: 1 },
+  { amaount: "1000", id: 2 },
+  { amaount: "5000", id: 3 },
+  { amaount: "10000", id: 4 },
+  { amaount: "50000", id: 5 },
   { amaount: "other", other: 6 },
 ];
 
 const Winter = ({ isLoading, details }) => {
   const { t } = useTranslation();
-  if (isLoading) return <p>loading...</p>;
+  if (isLoading) return <p></p>;
   const { url, _id, title } = details;
   return (
     <div>

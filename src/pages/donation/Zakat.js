@@ -4,16 +4,16 @@ import Title from "../../Components/shere/Title";
 import Account from "./Account";
 import Video from "../../Components/shere/Video";
 const price = [
-  { amaount: "1200৳", id: 1 },
-  { amaount: "2400৳", id: 2 },
-  { amaount: "3600৳", id: 3 },
-  { amaount: "4800৳", id: 4 },
-  { amaount: "6000৳", id: 5 },
+  { amaount: "1200", id: 1 },
+  { amaount: "2400", id: 2 },
+  { amaount: "3600", id: 3 },
+  { amaount: "4800", id: 4 },
+  { amaount: "6000", id: 5 },
   { amaount: "other", other: 6 },
 ];
 const Zakat = ({ details, isLoading }) => {
   const { t } = useTranslation();
-  if (isLoading) return <p>loading...</p>;
+  if (isLoading) return <p></p>;
   const { url, _id, title } = details;
   return (
     <div>

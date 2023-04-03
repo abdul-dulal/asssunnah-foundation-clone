@@ -1,14 +1,22 @@
+import axios from "axios";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const Account = ({ price, isfeet }) => {
-  const [value, setValue] = useState();
+  const [value, setValue] = useState({});
   const [check, setCheck] = useState(true);
   const { t } = useTranslation();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e.target.email.value);
+    const data = {
+      email: e.target.email.value,
+      amaount: value.amaount,
+    };
+
+    axios.post("http://localhost:3000/checkout/chekcout", data).then((res) => {
+      window.location.replace(res.data.url);
+    });
   };
 
   return (
@@ -34,10 +42,10 @@ const Account = ({ price, isfeet }) => {
         <h3>
           {t("bnak.code")} : <span className="ml-2"> IBBLBDDH</span>
         </h3>
-        <h3 className=" mt-5">বিকাশ/নগদ/রকেট: 01756400541</h3>
+        <h3 className=" mt-5 text-base">{t("iftarf.account")}: 01756400541</h3>
         {isfeet && (
-          <h3 className="mt-5 text-black">
-            * প্রতি স্কয়ার ফিটের নির্মাণমূল্য ২৫০০ টাকা
+          <h3 className="mt-5 text-black before:content-['*_']  before:text-red-700 before:text- text-lg">
+            {t("iftarf.feet")}
           </h3>
         )}
       </div>
@@ -53,7 +61,7 @@ const Account = ({ price, isfeet }) => {
                 }`}
                 onClick={() => setValue(balance)}
               >
-                {balance.amaount}
+                {balance.amaount} ৳
               </h3>
             </div>
           );
@@ -62,9 +70,11 @@ const Account = ({ price, isfeet }) => {
       {isfeet && (
         <div className="mt-3">
           {value?.id ? (
-            <p>{value?.id} স্কয়ার ফিটের নির্মাণমূল্য</p>
+            <p>
+              {value?.id} {t("accounting.price")}
+            </p>
           ) : (
-            <p>যেকোনো পরিমাণের অনুদান</p>
+            <p>{t("accounting.desc")}</p>
           )}
         </div>
       )}
@@ -78,21 +88,23 @@ const Account = ({ price, isfeet }) => {
             onClick={() => setCheck(!check)}
           />
           <label htmlFor="any" className="cursor-pointer ml-3">
-            যেকোনো পরিমাণের অনুদান
+            {t("accounting.desc")}
           </label>
           <div className="flex items-center  relative w-full  gap-10 ">
             <div className="w-2/6 text-end">
               <label className=" before:content-['*_'] before:text-red-700 before:text-xl ">
-                অনুদানের পরিমাণ
+                {t("accounting.amaount")}
               </label>
             </div>
             {value?.amaount === "other" ? (
               <div className="w-4/6">
                 <input
                   type="text"
-                  name="name"
+                  name="amaount"
                   disabled={check}
-                  onChange={({ target }) => setValue(target?.value)}
+                  onChange={({ target }) =>
+                    setValue({ amaount: target?.value })
+                  }
                   value="10"
                   className="disabled:bg-gray-200 disabled:cursor-not-allowed border border-[#BFBFBF] w-full block py-2  placeholder:text-[#54545]  text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                 />
@@ -101,9 +113,11 @@ const Account = ({ price, isfeet }) => {
               <div className="w-4/6">
                 <input
                   type="text"
-                  name="name"
+                  name="amaount"
                   disabled={check}
-                  onChange={({ target }) => setValue(target?.value)}
+                  onChange={({ target }) =>
+                    setValue({ amaount: target?.value })
+                  }
                   value={value?.amaount}
                   className="disabled:bg-gray-200 disabled:cursor-not-allowed border border-[#BFBFBF] w-full block py-2  placeholder:text-[#54545]  text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                 />
@@ -113,11 +127,14 @@ const Account = ({ price, isfeet }) => {
 
           <div className="flex items-center  relative w-full  gap-10  ">
             <div className="w-2/6 text-end">
-              <label className="  ">নাম</label>
+              <label className=" before:content-['*_'] before:text-red-700 before:text-xl ">
+                {t("accounting.name")}
+              </label>
             </div>
             <div className="w-4/6">
               <input
                 type="text"
+                required
                 name="name"
                 className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#54545]  text-base px-2 focus:outline-none focus:ring-0 rounded-md"
               />
@@ -127,7 +144,7 @@ const Account = ({ price, isfeet }) => {
           <div className="flex items-center  relative w-full  gap-10  ">
             <div className="w-2/6 text-end">
               <label className=" before:content-['*_'] before:text-red-700 before:text-xl ">
-                ইমেইল
+                {t("accounting.email")}
               </label>
             </div>
             <div className="w-4/6">

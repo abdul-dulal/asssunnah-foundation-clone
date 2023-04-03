@@ -40,8 +40,8 @@ const QurbaniAccount = () => {
         <h3 className=" mt-5">{t("iftarf.account")}: 01756400541</h3>
       </div>
       <div className=" mt-3">
-        <div className="flex justify-between">
-          <p>গরু</p>
+        <div className="grid grid-cols-4 gap-6 items-center">
+          <p>{t("cow.title")}</p>
           <p>7000 ৳</p>
           <div className="flex gap-4">
             <button
@@ -69,8 +69,8 @@ const QurbaniAccount = () => {
         )}
       </div>
       <div className=" mt-6">
-        <div className="flex justify-between">
-          <p>গরুর ভাগ</p>
+        <div className="grid grid-cols-4 gap-6 items-center ">
+          <p>{t("cow.title2")}</p>
           <p>7000 ৳</p>
           <div className="flex gap-4">
             <button
@@ -107,12 +107,12 @@ const QurbaniAccount = () => {
             onClick={() => setCheck(!check)}
           />
           <label htmlFor="any" className="cursor-pointer ml-3">
-            যেকোনো পরিমাণের অনুদান
+            {t("accounting.desc")}
           </label>
           <div className="flex items-center  relative w-full  gap-10 ">
             <div className="w-2/6 text-end">
               <label className=" before:content-['*_'] before:text-red-700 before:text-xl ">
-                অনুদানের পরিমাণ
+                {t("accounting.amaount")}
               </label>
             </div>
             {value?.amaount === "other" ? (
@@ -142,7 +142,7 @@ const QurbaniAccount = () => {
 
           <div className="flex items-center  relative w-full  gap-10  ">
             <div className="w-2/6 text-end">
-              <label className="  ">নাম</label>
+              <label className="  ">{t("accounting.name")}</label>
             </div>
             <div className="w-4/6">
               <input
@@ -156,7 +156,7 @@ const QurbaniAccount = () => {
           <div className="flex items-center  relative w-full  gap-10  ">
             <div className="w-2/6 text-end">
               <label className=" before:content-['*_'] before:text-red-700 before:text-xl ">
-                ইমেইল
+                {t("accounting.email")}
               </label>
             </div>
             <div className="w-4/6">
