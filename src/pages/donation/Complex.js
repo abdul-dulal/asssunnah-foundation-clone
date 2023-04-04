@@ -27,14 +27,16 @@ const Complex = ({ details, isLoading }) => {
     <div>
       <Title title={title} id={_id} />
       <div className="bg-secodary">
-        <div className="container grid grid-cols-2 gap-10  py-10">
+        <div className="container grid md:grid-cols-2 gap-10  py-10">
           <div>
-            <Video url={url} />
-            <div className="bg-white shadow-md rounded-lg text-lg text-primary p-5 w-[560px] mt-8 space-y-3 text-center">
+            <div className="w-full">
+              <Video url={url} />
+            </div>
+            <div className="bg-white shadow-md rounded-lg text-lg text-primary p-5 w-full mt-8 space-y-3 text-center">
               <h2>{t("complex.hadis")}</h2>
               <h2>{t("complex.hadis2")}</h2>
             </div>
-            <div className="bg-white shadow-md rounded-lg  p-5 w-[560px] mt-8 space-y-3">
+            <div className="bg-white shadow-md rounded-lg  p-5 w-full mt-8 space-y-3">
               <h3 className="text-lg text-center">{t("memberR.title")}</h3>
               <h2>{t("complex.desc")}</h2>
               <p
@@ -47,7 +49,7 @@ const Complex = ({ details, isLoading }) => {
             </div>
           </div>
           <div>
-            <div className=" bg-white shadow-sm rounded-md">
+            <div className=" bg-white shadow-sm rounded-md ">
               <div className="p-5 space-y-4">
                 <h1 className="text-xl font-medium text-black ">
                   {t(`${_id}.title`)}

@@ -18,11 +18,25 @@ const Headertop = () => {
   };
   return (
     <div className="">
-      <div className="container flex justify-end gap-3 text-2xl  py-4">
-        <AiFillFacebook className="text-[#4267B2]" />
-        <AiFillYoutube className="text-[#FF0000]" />
-        <AiOutlineMail className="text-primary" />
-        <BsFillTelephoneFill className="text-primary" />
+      <div className="container flex justify-end gap-2 text-xl  py-4">
+        <a
+          href="https://web.facebook.com/assunnahfoundationbd?_rdc=1&_rdr"
+          target="_blank"
+        >
+          <AiFillFacebook className="text-[#4267B2]" />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCuxth2BimHUigZ344JhcFPw"
+          target="_blank"
+        >
+          <AiFillYoutube className="text-[#FF0000]" />
+        </a>
+        <a href="mailto: abc@example.com" target="_blank">
+          <AiOutlineMail className="text-primary" />
+        </a>
+        <a href="tel:01957804564" target="_blank">
+          <BsFillTelephoneFill className="text-primary" />
+        </a>
         <div className="flex">
           <button
             onClick={() => handleLanguage("en")}

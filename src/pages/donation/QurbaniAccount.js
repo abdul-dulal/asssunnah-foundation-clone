@@ -40,7 +40,7 @@ const QurbaniAccount = () => {
         <h3 className=" mt-5">{t("iftarf.account")}: 01756400541</h3>
       </div>
       <div className=" mt-3">
-        <div className="grid grid-cols-4 gap-6 items-center">
+        <div className="grid sm:grid-cols-4 grid-cols-2 gap-6 items-center">
           <p>{t("cow.title")}</p>
           <p>7000 ৳</p>
           <div className="flex gap-4">
@@ -69,7 +69,7 @@ const QurbaniAccount = () => {
         )}
       </div>
       <div className=" mt-6">
-        <div className="grid grid-cols-4 gap-6 items-center ">
+        <div className="grid sm:grid-cols-4 grid-cols-2 gap-6 items-center ">
           <p>{t("cow.title2")}</p>
           <p>7000 ৳</p>
           <div className="flex gap-4">

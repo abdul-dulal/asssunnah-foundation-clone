@@ -1,4 +1,5 @@
 import About from "../../pages/about/About";
+import Cancel from "../../pages/Cancel";
 import Contact from "../../pages/contact/Contact";
 import Donation from "../../pages/donation/Donation";
 import Donationdetails from "../../pages/donation/Donationdetails";
@@ -28,5 +29,6 @@ export const PublicRoute = [
   { path: "/contact", name: "About", Component: Contact },
   { path: "/donate", name: "About", Component: Donation },
   { path: "/memberSuccess", name: "About", Component: MemberSuccess },
+  { path: "/cancel", name: "About", Component: Cancel },
   { path: "/donate/:category", name: "About", Component: Donationdetails },
 ];

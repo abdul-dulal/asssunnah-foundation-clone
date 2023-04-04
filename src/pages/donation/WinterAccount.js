@@ -22,12 +22,12 @@ const WinterAccount = ({ price }) => {
   };
   return (
     <div>
-      <div className="grid grid-cols-3 gap-2 mt-2">
+      <div className="grid md:grid-cols-3 grid-cols-2 gap-2 mt-2">
         {price?.map((balance) => {
           return (
             <div>
               <h3
-                className={`border border-[#545454] h-16 w-36 shadow-sm rounded-md p-5 cursor-pointer ${
+                className={`border border-[#545454] h-16 lg:w-36 w-full shadow-sm rounded-md p-5 cursor-pointer ${
                   balance.amaount == value?.amaount
                     ? "bg-primary text-white"
                     : ""
@@ -52,14 +52,14 @@ const WinterAccount = ({ price }) => {
           <label htmlFor="any" className="cursor-pointer ml-3">
             {t("accounting.desc")}
           </label>
-          <div className="flex items-center  relative w-full  gap-10 ">
-            <div className="w-2/6 text-end">
+          <div className="lg:flex lg:items-center  relative w-full  gap-10 ">
+            <div className="lg:w-2/6 lg:text-end mb-1">
               <label className=" before:content-['*_'] before:text-red-700 before:text-xl ">
                 {t("accounting.amaount")}
               </label>
             </div>
             {value?.amaount === "other" ? (
-              <div className="w-4/6">
+              <div className="lg:w-4/6 w-full">
                 <input
                   type="text"
                   name="name"
@@ -72,7 +72,7 @@ const WinterAccount = ({ price }) => {
                 />
               </div>
             ) : (
-              <div className="w-4/6">
+              <div className="lg:w-4/6 w-full">
                 <input
                   type="text"
                   name="name"
@@ -87,11 +87,11 @@ const WinterAccount = ({ price }) => {
             )}
           </div>
 
-          <div className="flex items-center  relative w-full  gap-10  ">
-            <div className="w-2/6 text-end">
+          <div className="lg:flex lg:items-center  relative w-full  gap-10  ">
+            <div className="lg:w-2/6 lg:text-end mb-1">
               <label className="  ">{t("accounting.name")}</label>
             </div>
-            <div className="w-4/6">
+            <div className="lg:w-4/6 w-full">
               <input
                 type="text"
                 name="name"
@@ -100,13 +100,13 @@ const WinterAccount = ({ price }) => {
             </div>
           </div>
 
-          <div className="flex items-center  relative w-full  gap-10  ">
-            <div className="w-2/6 text-end">
+          <div className="lg:flex lg:items-center  relative w-full  gap-10  ">
+            <div className="lg:w-2/6 w-full lg:text-end mb-1">
               <label className=" before:content-['*_'] before:text-red-700 before:text-xl ">
                 {t("accounting.email")}
               </label>
             </div>
-            <div className="w-4/6">
+            <div className="lg:w-4/6 w-full">
               <input
                 type="email"
                 name="email"

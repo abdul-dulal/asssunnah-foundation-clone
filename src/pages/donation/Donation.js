@@ -22,13 +22,13 @@ const Donation = () => {
     <div>
       <div style={{ backgroundColor: "rgb(0, 142, 72)" }}>
         <div className="container ">
-          <h2 className="text-white text-[32px] text-center py-7 ">
+          <h2 className="text-white sm:text-[32px] text-xl text-center py-7 ">
             {t("change")}
           </h2>
         </div>
       </div>
       <div className="bg-secodary py-8">
-        <div className="container grid grid-cols-2 gap-7  ">
+        <div className="container grid sm:grid-cols-2 gap-7  ">
           {donates.map((e) => {
             return (
               <div

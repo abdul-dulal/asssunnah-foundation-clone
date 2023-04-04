@@ -21,10 +21,10 @@ const Iftar = ({ details, isLoading }) => {
     <div>
       <Title title={title} id={_id} />
       <div className="bg-secodary">
-        <div className="container grid grid-cols-2 gap-10  py-10">
-          <div>
+        <div className="container grid md:grid-cols-2 gap-10  py-10">
+          <div className="w-full">
             <Video url={url} />
-            <div className="bg-white shadow-md rounded-lg text-lg text-primary p-5 w-[560px] mt-8 space-y-3 text-center">
+            <div className="bg-white shadow-md rounded-lg text-lg text-primary p-5 w-full mt-8 space-y-3 text-center">
               <h2>{t("iftarf.hadis")}</h2>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Iftar = ({ details, isLoading }) => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 container gap-10">
+        <div className="grid md:grid-cols-2 container gap-10 py-5">
           <div className="bg-white shadow-sm rounded-md p-6">
             <p>{t("iftarf.desc2")}</p>
           </div>

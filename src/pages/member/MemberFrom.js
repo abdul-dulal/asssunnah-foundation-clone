@@ -53,13 +53,13 @@ const MemberFrom = () => {
         {({ errors, touched }) => (
           <Form>
             <div className=" space-y-6">
-              <div className="flex items-center  relative w-full  gap-10 ">
-                <div className="w-2/6 text-end">
-                  <label className=" before:content-['*_']  before:text-red-700 before:text-xl ">
+              <div className="sm:flex block  relative w-full  gap-10 ">
+                <div className="sm:w-2/6 w-full sm:text-end">
+                  <label className=" before:content-['*_']  before:text-red-700 mt-1 before:text-xl ">
                     {t("memberFrom.desc")}
                   </label>
                 </div>
-                <div className="w-4/6">
+                <div className="sm:w-4/6 w-full">
                   <Field
                     as="select"
                     name="member"
@@ -75,49 +75,55 @@ const MemberFrom = () => {
                       {t("memberFrom.type")}
                     </option>
                   </Field>
-                  <ErrorMessage name="member" className="" />
+                  <div className="text-red-700 mt-1">
+                    <ErrorMessage name="member" className="" />
+                  </div>
                 </div>
               </div>
 
-              <div className="flex items-center  relative w-full  gap-10 ">
-                <div className="w-2/6 text-end">
-                  <label className=" before:content-['*_']  before:text-red-700 before:text-xl ">
+              <div className="sm:flex  relative w-full  gap-10 ">
+                <div className="sm:w-2/6 w-full sm:text-end">
+                  <label className=" before:content-['*_']  before:text-red-700 mt-1 before:text-xl ">
                     {t("memberFrom.desc2")}
                   </label>
                 </div>
-                <div className="w-4/6">
+                <div className="sm:w-4/6 w-full">
                   <Field
                     type="text"
                     name="name"
                     placeholder={t("memberFrom.plac2")}
                     className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#BFCDE0]  text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                   />
-                  <ErrorMessage name="name" className="" />
+                  <p className="text-red-700 mt-1">
+                    <ErrorMessage name="name" className="" />
+                  </p>
                 </div>
               </div>
 
-              <div className="flex items-center  relative w-full   gap-10 ">
-                <div className="w-2/6 text-end">
-                  <label className=" before:content-['*_']  before:text-red-700 before:text-xl ">
+              <div className="sm:flex  relative w-full   gap-10 ">
+                <div className="sm:w-2/6 w-full sm:text-end">
+                  <label className=" before:content-['*_']  before:text-red-700 mt-1 before:text-xl ">
                     {t("memberFrom.desc3")}
                   </label>
                 </div>
-                <div className="w-4/6">
+                <div className="sm:w-4/6 w-full">
                   <Field
                     type="text"
                     name="fname"
                     placeholder={t("memberFrom.plac3")}
                     className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#BFCDE0] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                   />
-                  <ErrorMessage name="fname" className="" />
+                  <div className="text-red-700 mt-1">
+                    <ErrorMessage name="fname" className="" />
+                  </div>
                 </div>
               </div>
 
-              <div className="flex items-center  relative w-full  gap-10 ">
-                <div className="w-2/6 text-end">
+              <div className="sm:flex  relative w-full  gap-10 ">
+                <div className="sm:w-2/6 w-full sm:text-end">
                   <label className="">{t("memberFrom.desc4")}</label>
                 </div>
-                <div className="w-4/6">
+                <div className="sm:w-4/6 w-full">
                   <input
                     type="checkbox"
                     id=""
@@ -127,45 +133,49 @@ const MemberFrom = () => {
                 </div>
               </div>
 
-              <div className="flex items-center  relative w-full  gap-10 ">
-                <div className="w-2/6 text-end">
-                  <label className=" before:content-['*_']  before:text-red-700 before:text-xl ">
+              <div className="sm:flex  relative w-full  gap-10 ">
+                <div className="sm:w-2/6 w-full sm:text-end">
+                  <label className=" before:content-['*_']  before:text-red-700 mt-1 before:text-xl ">
                     {t("memberFrom.desc5")}
                   </label>
                 </div>
-                <div className="w-4/6">
+                <div className="sm:w-4/6 w-full">
                   <Field
                     type="text"
                     name="phone"
                     placeholder="01xxxxx"
                     className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#BFCDE0] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                   />
-                  <ErrorMessage name="phone" className="" />
+                  <div className="text-red-700 mt-1">
+                    <ErrorMessage name="phone" className="" />
+                  </div>
                 </div>
               </div>
 
-              <div className="flex items-center  relative w-full  gap-10 ">
-                <div className="w-2/6 text-end">
-                  <label className=" before:content-['*_']  before:text-red-700 before:text-xl ">
+              <div className="sm:flex  relative w-full  gap-10 ">
+                <div className="sm:w-2/6 w-full sm:text-end">
+                  <label className=" before:content-['*_']  before:text-red-700 mt-1 before:text-xl ">
                     {t("memberFrom.desc6")}
                   </label>
                 </div>
-                <div className="w-4/6">
+                <div className="sm:w-4/6 w-full">
                   <Field
                     type="email"
                     name="email"
                     placeholder="abdullah@gmail.com"
                     className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#BFCDE0] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                   />
-                  <ErrorMessage name="email" className="" />
+                  <div className="text-red-700 mt-1">
+                    <ErrorMessage name="email" className="" />
+                  </div>
                 </div>
               </div>
 
-              <div className="flex   items-center relative w-full  gap-10 ">
-                <div className="w-2/6 text-end">
+              <div className="sm:flex sm:  items-center relative w-full  gap-10 ">
+                <div className="sm:w-2/6 w-full sm:text-end">
                   <label className="  ">{t("memberFrom.desc7")}</label>
                 </div>
-                <div className="w-4/6">
+                <div className="sm:w-4/6 w-full">
                   <Field
                     type="text"
                     name="pesa"
@@ -175,11 +185,11 @@ const MemberFrom = () => {
                 </div>
               </div>
 
-              <div className="flex   items-center relative w-full  gap-10 ">
-                <div className="w-2/6 text-end">
+              <div className="sm:flex sm:  items-center relative w-full  gap-10 ">
+                <div className="sm:w-2/6 w-full sm:text-end">
                   <label className="  ">{t("memberFrom.desc8")}</label>
                 </div>
-                <div className="w-4/6">
+                <div className="sm:w-4/6 w-full">
                   <Field
                     type="text"
                     name="reference"
@@ -189,20 +199,22 @@ const MemberFrom = () => {
                 </div>
               </div>
 
-              <div className="flex   items-center relative w-full  gap-10 ">
-                <div className="w-2/6 text-end">
-                  <label className=" before:content-['*_']  before:text-red-700 before:text-xl ">
+              <div className="sm:flex sm:  items-center relative w-full  gap-10 ">
+                <div className="sm:w-2/6 w-full sm:text-end">
+                  <label className=" before:content-['*_']  before:text-red-700 mt-1 before:text-xl ">
                     {t("memberFrom.desc9")}
                   </label>
                 </div>
-                <div className="w-4/6">
+                <div className="sm:w-4/6 w-full">
                   <Field
                     type="text"
                     name="address"
                     placeholder={t("memberFrom.plac6")}
                     className="border border-[#BFBFBF] w-full block py-2  placeholder:text-[#BFCDE0] text-base px-2 focus:outline-none focus:ring-0 rounded-md"
                   />
-                  <ErrorMessage name="address" className="" />
+                  <div className="text-red-700 mt-1">
+                    <ErrorMessage name="address" className="" />
+                  </div>
                 </div>
               </div>
               <p className="text-center">{t("memberFrom.desc10")}</p>

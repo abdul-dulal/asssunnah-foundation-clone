@@ -21,10 +21,10 @@ const Monthly = ({ isLoading, details }) => {
     <div>
       <Title title={title} id={_id} />
       <div className="bg-secodary">
-        <div className="container grid grid-cols-2 gap-10  py-10">
-          <div>
+        <div className="container grid md:grid-cols-2 gap-10  py-10">
+          <div className="w-full">
             <Video url={url} />
-            <div className="bg-white shadow-md rounded-lg text-lg text-primary p-5 w-[560px] mt-8 space-y-3 text-center">
+            <div className="bg-white shadow-md rounded-lg text-lg text-primary p-5  mt-8 space-y-3 text-center">
               <h2>{t("monthly.hadis")}</h2>
               <h2>{t("monthly.hadis2")}</h2>
             </div>
@@ -44,7 +44,7 @@ const Monthly = ({ isLoading, details }) => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 container gap-10">
+        <div className="grid md:grid-cols-2 container gap-10 py-5">
           <div className="bg-white shadow-sm rounded-md p-6 space-y-4">
             <p>{t("monthly.desc")}</p>
             <p>{t("monthly.desc2")}</p>
